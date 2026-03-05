@@ -1,0 +1,48 @@
+Automatizace přípravy dat a generování sady grafů pomocí šablon, aby bylo možné vytvořit jedním příkazem stejné výstupy pro různé časové období / typy obyvatel / typ území.
+Bude to sloužit pro jednotný formát všech grafů a mělo by to být součástí explorační analýzy dat.
+
+
+Obecný postup:
+
+1. Navržení jednotné struktury projektu (vstupní složka, výstupní složka)
+
+2. Definice povinných datových formátů
+
+3. Parametrizační soubor, ve kterém bude možno měnit následující parametry:
+   časové období
+   prostorovou agregaci
+   typ obyvatel
+   typ grafu 
+   název výstupu 
+
+4. Implementace pipe-line, která
+   Načte data
+   vyčistí je
+   agreguje dle parametrů
+   vygeneruje grafy
+   vytvoří stručný report
+
+5 Ověření funkčnosti na různých scénářích
+
+
+Podkroky
+
+1. Vstupní vrstva - načtení + validace dat
+   kontrola existence jednotlivých sloupců 
+   kontrola datových typů
+   kontrola časového rozsahu
+   
+2 Čištění a standardizace
+  odstranění duplicit
+  sjednocení časového formátu
+  sumarizace
+
+3 Parametrizace úlohy
+  Definice parametrů
+   časové rozlišení (hodina, den)
+   časový interval (4 týdny)
+   typ prostorové agregace (obec, orp)
+   typ grafu (liniový, heat-mapa, sloupcový)
+   typ obyvatele (rezident, návštěvník, dojíždějící)
+   název výstupu
+   
