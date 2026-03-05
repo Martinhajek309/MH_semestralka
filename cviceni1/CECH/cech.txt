@@ -1,0 +1,13 @@
+Stahování klimatických anomálií přes CDS API od Copernicus
+
+1. registrace na stránkách Copernicus
+2. vygenerování a nastavení API klíče z účtu Copernicus
+3. tvorba samotného skriptu
+4. ošetření chyb a logování
+
+4. 
+stažení potřebných python knihoven
+výběr pouze potřebných klimatických proměnných
+nastavení stahování dat jen pro území Česka
+stažení zkušební časové řady dat (jen pro ověření funkčnosti)
+automatizace stahování dat každý následující rok (únor-červenec)
