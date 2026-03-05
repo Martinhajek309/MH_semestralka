@@ -1,0 +1,10 @@
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [17.2585550,49.5376706]
+    },
+    "properties": {
+        "title": "Cíl"
+    }
+}

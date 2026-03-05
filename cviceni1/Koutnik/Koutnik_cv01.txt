@@ -1,0 +1,12 @@
+Získání dat o VŠ budovách
+Důležitou součástí diplomové práce je získání dat o VŠ v České republice. Proces je velmi náročný, jelikož žádný úplný dataset pro ČR neexistuje, tudíž je zapotřebí spousta manuální práce s transformací dat a jejich získávání. V těchto třech krocích plánuji data získat.
+1. Zdroj dat
+- Najít nejlepší zdroj dat, který bude nejaktuálnější a bez chyb/prázdných buněk. Následné stáhnutí v ideálním formátu (csv, xlsx, atd.).
+2. Transformace dat pro geokodování
+- Projít si kompletní strukturu dat.
+- Rozdělení dat s částečnou nebo kompletní adresou a dat bez adresy.
+- Manuální hledání chybějících adres.
+- Finální sloučení souborů a příprava geokodování.
+3. Geokodování
+- Geokodování pomocí připravených adres.
+- Kontrola geokodování pomocí importu do GIS SW (např. ArcGIS PRO).
