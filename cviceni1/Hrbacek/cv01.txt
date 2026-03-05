@@ -1,0 +1,14 @@
+Automatizovaný výpočet urbanistických parametrů
+
+Potřeba vrstev o obyvatelstvu, budovách, veřejných prostranství
+Filtrace dat
+Kontrola atributů
+Výpočet indikátorů
+
+Dekompozice:
+načtení vrstev
+sjednocení souřadnicových systémů
+výběr relevantních atributů
+ošetření chybějících hodnot
+výpočet indikátorů v lokalitách
+generování výstupů (vrstvy s potřebnými indikátorů)
