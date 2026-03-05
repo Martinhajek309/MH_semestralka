@@ -18,7 +18,7 @@
 mesta = [
     {"nazev": "Praha", "populace": 1_309_000, "souradnice": [50.0755, 14.4378]},
     {"nazev": "Brno", "populace": 382_000, "souradnice": [49.1951, 16.6068]},
-    {"nazev": "Ostrava", "populace": 284_000  "souradnice": [49.8209, 18.2625]},
+    {"nazev": "Ostrava", "populace": 284_000,  "souradnice": [49.8209, 18.2625]},
     {"nazev": "Plzeň", "populace": 174_000, "souradnice": [49.7384, 13.3736]},
     {"nazev": "Olomouc", "populace": 101_000, "souradnice": [49.5938, 17.2509]},
 ]
@@ -35,7 +35,7 @@ for mesto in mesta:
     lon = mesto["souradnice"][1]
     
     print(f"{nazev}: {populace} obyvatel")
-    print(f"  Souřadnice: {lat}° N, {lon}° E)
+    print(f"  Souřadnice: {lat}° N, {lon}° E")
     print()
 
 # --- 3. Najdeme největší město ---
@@ -43,7 +43,7 @@ for mesto in mesta:
 nejvetsi = mesta[0]
 
 for mesto in mesta:
-    if mesto["populace"] > nejvetsi["populace"]
+    if mesto["populace"] > nejvetsi["populace"]:
         nejvetsi = mesto
 
 print(f"Největší město: {nejvetsi['nazev']} ({nejvetsi['populace']} obyvatel)")
@@ -54,7 +54,7 @@ print()
 celkova_populace = 0
 
 for mesto in mesta:
-    celkova_populace += mesto["populace"
+    celkova_populace += mesto["populace"]
 
 print(f"Celková populace sledovaných měst: {celkova_populace}")
 print()
@@ -67,7 +67,7 @@ for mesto in mesta:
     soucet_lat += mesto["souradnice"][0]
 
 prumerna_lat = soucet_lat / len(mesta)
-primt(f"Průměrná zeměpisná šířka: {prumerna_lat:.4f}° N")
+print(f"Průměrná zeměpisná šířka: {prumerna_lat:.4f}° N")
 print()
 
 # --- 6. Která města mají více než 200 000 obyvatel? ---
@@ -77,7 +77,7 @@ print("Města nad 200 000 obyvatel:")
 for mesto in mesta:
     if mesto["populace"] > 200_000:
         print(f"  ✓ {mesto['nazev']}")
-    else
+    else:
         print(f"  ✗ {mesto['nazev']}")
 
 print()
@@ -91,7 +91,7 @@ print("Přibližná vzdálenost od Prahy:")
 
 for mesto in mesta[1:]:
     nazev = mesto["nazev"]
-    lat = mesto["souradnice"[0]
+    lat = mesto["souradnice"][0]
     lon = mesto["souradnice"][1]
     
     # Zjednodušený výpočet (rozdíl souřadnic × přibližný převod na km)
