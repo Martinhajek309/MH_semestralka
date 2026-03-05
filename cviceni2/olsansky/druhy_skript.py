@@ -1,6 +1,7 @@
+#!/usr/bin/env python3
 # ============================================================
 # PRODA 2026 – Programové zpracování dat
-# Úvodní skript: Města České republiky
+# Thiessenovy polygony: Která část ČR patří ke kterému městu?
 # ============================================================
 # NEMĚNIT ORIGINÁLNÍ SOUBOR! 
 # Pracujte na své nové větvi a upravujte kopii ve složce /vaseprijmeni.
@@ -8,96 +9,210 @@
 # Upravujte pak kopii, jinak dojde ke git konfliktu a nepůjde
 # vám odevzdat úkol.
 # ============================================================
-# Tento skript ukazuje, co Python dokáže v pár řádcích.
-# Vaším úkolem je najít a opravit všechny SYNTAKTICKÉ chyby,
-# které VS Code označí červeně.
+# Tento skript vypočítá a vykreslí Thiessenovy (Voronoi) polygony
+# pro největší česká města a uloží výsledek jako obrázek.
+#
+# ⚠️  Ke spuštění potřebujete nainstalovat knihovny!
+#     1. Vytvořte si virtuální prostředí
+#     2. Aktivujte hoe
+#     3. Nainstalujte knihovny
+#     4. Spusťte skript
 # ============================================================
 
-# --- 1. Základní informace o městech ---
+import os
+import sys
+import subprocess
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import geopandas as gpd
+from shapely.geometry import MultiPoint, Point, box
+from shapely.ops import voronoi_diagram
+
+# ============================================================
+# 1. Stažení hranice České republiky
+# ============================================================
+# Použijeme dataset Natural Earth — volně dostupná geodata pro celý svět.
+# Stáhneme soubor zemí světa a vyfiltrujeme si Českou republiku.
+
+print("⬇️  Stahuji hranici ČR z Natural Earth...")
+
+URL_NATURAL_EARTH = (
+    "https://naturalearth.s3.amazonaws.com"
+    "/50m_cultural/ne_50m_admin_0_countries.zip"
+)
+
+svet = gpd.read_file(URL_NATURAL_EARTH)                 # Celý svět
+cr = svet[svet["ISO_A3"] == "CZE"].to_crs(epsg=4326)   # Filtr: jen ČR, WGS 84
+cr_geom = cr.geometry.union_all()                       # Spojení do jednoho polygonu
+
+print("✅ Hranice ČR načtena!\n")
+
+# ============================================================
+# 2. Data: největší česká města
+# ============================================================
 
 mesta = [
-    {"nazev": "Praha", "populace": 1_309_000, "souradnice": [50.0755, 14.4378]},
-    {"nazev": "Brno", "populace": 382_000, "souradnice": [49.1951, 16.6068]},
-    {"nazev": "Ostrava", "populace": 284_000  "souradnice": [49.8209, 18.2625]},
-    {"nazev": "Plzeň", "populace": 174_000, "souradnice": [49.7384, 13.3736]},
-    {"nazev": "Olomouc", "populace": 101_000, "souradnice": [49.5938, 17.2509]},
+    {"nazev": "Praha",            "lon": 14.4378, "lat": 50.0755, "pop": 1_309_000},
+    {"nazev": "Brno",             "lon": 16.6068, "lat": 49.1951, "pop":   382_000},
+    {"nazev": "Ostrava",          "lon": 18.2625, "lat": 49.8209, "pop":   284_000},
+    {"nazev": "Plzeň",            "lon": 13.3736, "lat": 49.7384, "pop":   174_000},
+    {"nazev": "Liberec",          "lon": 15.0562, "lat": 50.7671, "pop":   104_000},
+    {"nazev": "Olomouc",          "lon": 17.2509, "lat": 49.5938, "pop":   101_000},
+    {"nazev": "České Budějovice", "lon": 14.4744, "lat": 48.9745, "pop":    94_000},
+    {"nazev": "Hradec Králové",   "lon": 15.8327, "lat": 50.2092, "pop":    92_000},
+    {"nazev": "Ústí nad Labem",   "lon": 14.0416, "lat": 50.6607, "pop":    91_000},
+    {"nazev": "Pardubice",        "lon": 15.7696, "lat": 50.0343, "pop":    91_000},
+    {"nazev": "Zlín",             "lon": 17.6647, "lat": 49.2261, "pop":    72_000},
+    {"nazev": "Jihlava",          "lon": 15.5896, "lat": 49.3961, "pop":    51_000},
 ]
 
-# --- 2. Výpis informací o městech ---
+# ============================================================
+# 3. Výpočet Thiessenových polygonů
+# ============================================================
+# Thiessenova tessellation = pro každý bod plocha, která je
+# nejblíže právě jemu (a ne jinému bodu).
 
-print("=== Města České republiky ===")
-print()
+print("📐 Počítám Thiessenovy polygony...")
 
-for mesto in mesta:
-    nazev = mesto["nazev"]
-    populace = mesto["populace"]
-    lat = mesto["souradnice"][0]
-    lon = mesto["souradnice"][1]
-    
-    print(f"{nazev}: {populace} obyvatel")
-    print(f"  Souřadnice: {lat}° N, {lon}° E)
-    print()
+# Vytvoříme shapely objekt se všemi body měst
+souradnice = [(m["lon"], m["lat"]) for m in mesta]
+body = MultiPoint(souradnice)
 
-# --- 3. Najdeme největší město ---
+# Voronoi diagram s obálkou přesahující ČR (jinak by krajní polygony
+# sahaly do nekonečna)
+obalka = box(10.5, 47.5, 20.0, 52.0)
+voronoi = voronoi_diagram(body, envelope=obalka)
 
-nejvetsi = mesta[0]
+# Přiřadíme každý Voronoi polygon k městu (hledáme, které město leží uvnitř)
+# a ořízněme polygon na hranici ČR
+prirazene_polygony = []
 
-for mesto in mesta:
-    if mesto["populace"] > nejvetsi["populace"]
-        nejvetsi = mesto
+for polygon in voronoi.geoms:
+    for i, (lon, lat) in enumerate(souradnice):
+        if polygon.contains(Point(lon, lat)):
+            oriznuty = polygon.intersection(cr_geom)    # Ořez na ČR ✂️
+            prirazene_polygony.append({
+                "polygon": oriznuty,
+                "mesto": mesta[i],
+            })
+            break
 
-print(f"Největší město: {nejvetsi['nazev']} ({nejvetsi['populace']} obyvatel)")
-print()
+print(f"✅ Vypočítáno {len(prirazene_polygony)} polygonů.\n")
 
-# --- 4. Výpočet celkové populace ---
+# ============================================================
+# 4. Vizualizace
+# ============================================================
 
-celkova_populace = 0
+print("🎨 Vykresluji mapu...")
 
-for mesto in mesta:
-    celkova_populace += mesto["populace"
+fig, ax = plt.subplots(figsize=(14, 9))
+fig.patch.set_facecolor("#0f0f1a")
+ax.set_facecolor("#0f0f1a")
 
-print(f"Celková populace sledovaných měst: {celkova_populace}")
-print()
+# Barevná paleta
+barvy = plt.cm.tab20(np.linspace(0, 1, len(mesa := prirazene_polygony)))
 
-# --- 5. Průměrná zeměpisná šířka ---
+# Vykreslíme Thiessenovy polygony
+for i, prvek in enumerate(prirazene_polygony):
+    polygon = prvek["polygon"]
+    if polygon.is_empty:
+        continue
 
-soucet_lat = 0
+    geo = gpd.GeoSeries([polygon])
+    geo.plot(
+        ax=ax,
+        color=barvy[i],
+        alpha=0.55,
+        edgecolor="white",
+        linewidth=0.8,
+    )
 
-for mesto in mesta:
-    soucet_lat += mesto["souradnice"][0]
+# Obrys ČR přes to — výrazná bílá hranice
+cr.boundary.plot(ax=ax, color="white", linewidth=2.0, zorder=10)
 
-prumerna_lat = soucet_lat / len(mesta)
-primt(f"Průměrná zeměpisná šířka: {prumerna_lat:.4f}° N")
-print()
+# Markery měst — velikost podle populace
+populace = np.array([p["mesto"]["pop"] for p in prirazene_polygony])
+velikosti = (populace / populace.max()) * 350 + 30
 
-# --- 6. Která města mají více než 200 000 obyvatel? ---
+for i, prvek in enumerate(prirazene_polygony):
+    m = prvek["mesto"]
+    ax.scatter(
+        m["lon"], m["lat"],
+        s=velikosti[i],
+        color=barvy[i],
+        edgecolors="white",
+        linewidths=1.2,
+        zorder=20,
+    )
+    ax.annotate(
+        m["nazev"],
+        xy=(m["lon"], m["lat"]),
+        xytext=(5, 4),
+        textcoords="offset points",
+        color="white",
+        fontsize=8,
+        fontweight="bold",
+        zorder=21,
+    )
 
-print("Města nad 200 000 obyvatel:")
+# Titulek a osy
+ax.set_title(
+    "Thiessenovy polygony — největší česká města\n"
+    "Každá oblast je nejblíže danému městu",
+    color="white",
+    fontsize=13,
+    pad=14,
+)
+ax.set_xlabel("Zeměpisná délka (°E)", color="#aaaacc", fontsize=9)
+ax.set_ylabel("Zeměpisná šířka (°N)", color="#aaaacc", fontsize=9)
+ax.tick_params(colors="#aaaacc")
+for spine in ax.spines.values():
+    spine.set_edgecolor("#333355")
 
-for mesto in mesta:
-    if mesto["populace"] > 200_000:
-        print(f"  ✓ {mesto['nazev']}")
-    else
-        print(f"  ✗ {mesto['nazev']}")
+# Legenda
+legenda = [
+    mpatches.Patch(
+        facecolor=barvy[i],
+        alpha=0.7,
+        label=f"{p['mesto']['nazev']} ({p['mesto']['pop'] // 1000} tis.)",
+    )
+    for i, p in enumerate(prirazene_polygony)
+]
+ax.legend(
+    handles=legenda,
+    loc="lower left",
+    fontsize=7.5,
+    framealpha=0.3,
+    labelcolor="white",
+    facecolor="#1a1a2e",
+    edgecolor="#333355",
+    ncol=2,
+)
 
-print()
+plt.tight_layout()
 
-# --- 7. Vzdálenost měst od Prahy (zjednodušený odhad) ---
+# ============================================================
+# 5. Uložení a otevření výsledku
+# ============================================================
 
-praha_lat = mesta[0]["souradnice"][0]
-praha_lon = mesta[0]["souradnice"][1]
+adresar_skriptu = os.path.dirname(os.path.abspath(__file__))
+vystupni_soubor = os.path.join(adresar_skriptu, "thiessenovy_polygony.png")
 
-print("Přibližná vzdálenost od Prahy:")
+plt.savefig(
+    vystupni_soubor,
+    dpi=150,
+    bbox_inches="tight",
+    facecolor=fig.get_facecolor(),
+)
+print(f"✅ Obrázek uložen: {vystupni_soubor}")
 
-for mesto in mesta[1:]:
-    nazev = mesto["nazev"]
-    lat = mesto["souradnice"[0]
-    lon = mesto["souradnice"][1]
-    
-    # Zjednodušený výpočet (rozdíl souřadnic × přibližný převod na km)
-    vzdalenost = ((lat - praha_lat) ** 2 + (lon - praha_lon) ** 2) ** 0.5 * 111
-    
-    print(f"  {nazev}: ~{vzdalenost:.0f} km")
+# Otevřeme obrázek v systémovém prohlížeči
+if sys.platform == "win32":
+    os.startfile(vystupni_soubor)
+elif sys.platform == "darwin":
+    subprocess.run(["open", vystupni_soubor])
+else:
+    subprocess.run(["xdg-open", vystupni_soubor])
 
-print()
-print("Hotovo! 🎉")
+print("🗺️  Hotovo!")
