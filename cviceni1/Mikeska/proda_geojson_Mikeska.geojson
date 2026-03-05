@@ -1,0 +1,20 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [18.3120731, 49.5534667]
+            },
+            "properties": {
+                "name": "Mikeska",
+                "amenity": "restaurant",
+                "cuisine": "Czech",
+                "website": "http://www.mikeska.cz/",
+                "phone": "+420 556 621 231",
+                "source": "survey 2024-06-15"
+            }
+        }
+    ]
+}

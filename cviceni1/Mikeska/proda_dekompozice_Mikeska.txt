@@ -1,0 +1,33 @@
+Název úlohy: Spuštění Python skriptu pro vykreslení mapového výstupu
+
+Seznam kroků:
+1. Příprava vstupních dat pro mapový skript
+2. Nastavení parametrů mapového výstupu
+3. Spuštění Python skriptu
+4. Kontrola vytvořeného mapového výstupu
+5. Uložení výsledné mapy
+
+Podkroky:
+1. Příprava vstupních dat:
+- Načtení prostorových dat (vektorová nebo rastrová data)
+- Kontrola souřadnicového referenčního systému
+- Ověření úplnosti a správnosti dat
+
+2. Nastavení parametrů mapy:
+- Definování typu mapy (např. choropleth, bodová mapa)
+- Nastavení barevné škály
+- Nastavení rozsahu hodnot a legendy
+
+3. Spuštění Python skriptu:
+- Otevření skriptu v Python prostředí
+- Kontrola použitých knihoven
+- Spuštění skriptu pro vykreslení mapy
+
+4. Kontrola mapového výstupu:
+- Ověření správnosti zobrazení dat
+- Kontrola čitelnosti mapových prvků
+- Identifikace případných chyb ve výstupu
+
+5. Uložení mapy:
+- Export mapového výstupu do zvoleného formátu
+- Uložení souboru do pracovního adresáře
