@@ -1,0 +1,36 @@
+POPIS SKRIPTŮ – CVIČENÍ 2
+========================================
+
+1. prvni_skript.py
+--------
+Skript zpracovává základní data o městech České republiky.
+Obsahuje následující operace:
+
+- Definuje seznam s informacemi o 5 největších městech ČR (Praha, Brno, Ostrava, Plzeň, Olomouc)
+- Ke každému městu si uchovává jméno, počet obyvatel a souřadnice (zeměpisná šířka a délka)
+- Vypíše podrobné informace o každém městě (jméno, populace, souřadnice)
+- Najde největší město podle počtu obyvatel
+- Vypočítá celkovou populaci všech sledovaných měst
+- Vypočítá průměrnou zeměpisnou šířku všech měst
+- Filtruje a vypíše, která města mají více než 200 000 obyvatel
+- Počítá přibližnou vzdálenost jednotlivých měst od Prahy (pomocí součádnic a jejich rozdílů)
+
+Jedná se o jednoduchý úvodní skript, který demonstruje základní práci se seznamy, slovníky a cykly v Pythonu.
+
+
+2. druhy_skript.py
+--------
+Skript se zaměřuje na pokročilejší geoprostorové analýzy.
+Obsahuje následující operace:
+
+- Stahuje hranice České republiky z veřejného datového zdroje Natural Earth
+- Filtruje a převádí data do standardního souřadnicového systému (WGS 84)
+- Definuje data o 12 největších českých městech s jejich zeměpispnými souřadnicemi a populací
+- Vypočítá Thiessenovy (Voronoi) polygony – geometrické tvary, které dělí plochu ČR na oblasti
+  podle toho, které město je z kterého místa nejblíže
+- Přiřadí každý Voronoi polygon k odpovídajícímu městu
+- Ořeže polygony na hranici České republiky (aby nebyly mimo státní hranice)
+- Připravuje data k dalšímu zpracování nebo vizualizaci
+
+Tento skript vyžaduje nainstalovaní speciálních knihoven (geopandas, shapely, matplotlib, numpy)
+a demonstruje práci s geoprostorovými daty v Pythonu.
