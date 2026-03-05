@@ -101,3 +101,6 @@ for mesto in mesta[1:]:
 
 print()
 print("Hotovo! 🎉")
+
+
+
