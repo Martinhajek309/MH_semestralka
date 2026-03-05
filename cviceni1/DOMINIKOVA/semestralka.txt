@@ -1,0 +1,16 @@
+BAKALARKA
+Porovnání nástrojů pro automatickou segmentaci dynamických dat z brýlí Pupil Neon
+
+NEVÍM JAKÝ JE VÝSTUP
+
+převod formátů/souborů z technologií do: (CVS) 
+GAZEPLOTTERU 
+BlickShift
+BiSigma Software Suite (EDF, BDF, GDF) 
+
+KROKY: 
+(převod z .mp4)
+
+1) výběr formátu vstupních dat
+2) výběr formátů výstupních dat
+3) konverze dat do výstupního formátu 
