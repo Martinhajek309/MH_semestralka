@@ -88,3 +88,32 @@ soubor_cesta = os.path.join(os.path.dirname(__file__), "misto_mikeska.geojson")
 with open(soubor_cesta, "w", encoding="utf-8") as f:
     f.write(geojson_prag)
 print(f"\nGeoJSON bod byl uložen do souboru '{soubor_cesta}'")
+
+
+# Vytvoření více GeoJSON souborů z listu krajských měst
+print("\n=== Vytvoření GeoJSON souborů pro krajská města ===")
+krajska_mesta = [
+    {"nazev": "Praha", "lat": 50.0755, "lon": 14.4378},
+    {"nazev": "Brno", "lat": 49.1922, "lon": 16.6113},
+    {"nazev": "Plzeň", "lat": 49.7384, "lon": 13.3736},
+    {"nazev": "Liberec", "lat": 50.7671, "lon": 15.0521},
+    {"nazev": "Ústí nad Labem", "lat": 50.6625, "lon": 14.0327},
+    {"nazev": "Hradec Králové", "lat": 50.2087, "lon": 15.8326},
+    {"nazev": "Pardubice", "lat": 50.0374, "lon": 15.7739},
+    {"nazev": "Jihlava", "lat": 49.3959, "lon": 15.5898},
+    {"nazev": "Bruntál", "lat": 49.9839, "lon": 17.4695},
+    {"nazev": "Ostrava", "lat": 49.8353, "lon": 18.2845},
+]
+
+for mesto in krajska_mesta:
+    geojson_mesto = vytvor_geojson_bod(mesto["nazev"], mesto["lat"], mesto["lon"])
+    
+    # Vytvoření názvu souboru
+    nazev_souboru = f"misto_{mesto['nazev'].lower()}.geojson"
+    soubor_cesta = os.path.join(os.path.dirname(__file__), nazev_souboru)
+    
+    # Uložení do souboru
+    with open(soubor_cesta, "w", encoding="utf-8") as f:
+        f.write(geojson_mesto)
+    
+    print(f"✓ {mesto['nazev']} -> {nazev_souboru}")

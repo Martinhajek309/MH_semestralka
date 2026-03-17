@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nazev": "Pardubice",
+        "vzdalenost_od_rovniku": 5570.16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7739,
+          50.0374
+        ]
+      }
+    }
+  ]
+}

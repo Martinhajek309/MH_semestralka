@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nazev": "Hradec Králové",
+        "vzdalenost_od_rovniku": 5589.23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8326,
+          50.2087
+        ]
+      }
+    }
+  ]
+}
