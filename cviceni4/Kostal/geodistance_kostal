@@ -1,11 +1,28 @@
-def vypocitej_vzdalenost_od_rovniku(sirka):
-    vzdalenost = sirka * 111.32
-    print(vzdalenost)
+def vypocitej_vzdalenost_od_rovniku(sirka, jednotka="km", zaokrouhlit=False):
+    vzdalenost_km = sirka * 111.32
+
+    if jednotka == "km":
+        vzdalenost = vzdalenost_km
+    elif jednotka == "mile":
+        vzdalenost = vzdalenost_km * 0.621371
+    else:
+        print("Neplatná jednotka. Použij 'km' nebo 'mile'.")
+        return None
+
+    if zaokrouhlit:
+        vzdalenost = round(vzdalenost)
+
     return vzdalenost
 
 
 sirky = [0, 15, 30, 45, 60]
 
 for sirka in sirky:
-    vzdalenost = vypocitej_vzdalenost_od_rovniku(sirka)
-    print(f"Město na šířce {sirka}° je {vzdalenost} km od rovníku.")
+    vzdalenost1 = vypocitej_vzdalenost_od_rovniku(sirka)
+    print(f"Město na šířce {sirka}° je {vzdalenost1} km od rovníku.")
+
+    vzdalenost2 = vypocitej_vzdalenost_od_rovniku(sirka, "mile")
+    print(f"Město na šířce {sirka}° je {vzdalenost2} mile od rovníku.")
+
+    vzdalenost3 = vypocitej_vzdalenost_od_rovniku(sirka, "km", True)
+    print(f"Město na šířce {sirka}° je {vzdalenost3} km od rovníku.")
