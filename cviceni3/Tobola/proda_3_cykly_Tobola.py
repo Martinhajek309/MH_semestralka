@@ -8,4 +8,5 @@ for hodina, teplota in enumerate(mereni):
         print(f"Hodina {hodina}:00: Kritická chyba senzoru, ukončuji kontrolu!")
         break
 
+
     print(f"Teplota v {hodina}:00 byla {teplota}°C.")
