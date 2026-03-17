@@ -1,0 +1,11 @@
+def vypocitej_vzdalenost_od_rovniku(sirka):
+    vzdalenost = sirka * 111.32
+    print(vzdalenost)
+    return vzdalenost
+
+
+sirky = [0, 15, 30, 45, 60]
+
+for sirka in sirky:
+    vzdalenost = vypocitej_vzdalenost_od_rovniku(sirka)
+    print(f"Město na šířce {sirka}° je {vzdalenost} km od rovníku.")
