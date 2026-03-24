@@ -18,3 +18,12 @@ print("Polygon:", polygon[1]
       , "\nSquare:", square[1]
       , "\nMulti-polygon:", multipolygon[1])
 
+print("Polygon[0]:", polygon[0])
+print("Pentagon[0]:", pentagon[0])
+print("Square[0]:", square[0])
+print("Multipolygon[0]:", multipolygon[0])
+
+print("\nPolygon[2]:", polygon[2])
+print("Pentagon[3]:", pentagon[3])
+print("Square[2]:", square[2])
+print("Multipolygon[5]:", multipolygon[5])
