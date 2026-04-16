@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nazev": "Plzeň",
+        "vzdalenost_od_rovniku": 5536.88
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3736,
+          49.7384
+        ]
+      }
+    }
+  ]
+}

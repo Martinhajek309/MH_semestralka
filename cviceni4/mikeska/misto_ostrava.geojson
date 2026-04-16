@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nazev": "Ostrava",
+        "vzdalenost_od_rovniku": 5547.67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2845,
+          49.8353
+        ]
+      }
+    }
+  ]
+}
