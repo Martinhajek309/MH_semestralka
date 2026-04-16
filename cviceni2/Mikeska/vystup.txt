@@ -1,0 +1,42 @@
+# filepath: c:\Users\admin\Documents\GitHub\KGI-PRODA-2026\cviceni2\Mikeska\vystup.txt
+
+# CO SKRIPT DĚLÁ
+# ===============
+# Skript vizualizuje Thiessenovy (Voronoi) polygony pro 12 největších českých měst.
+# 
+# Kroky:
+# 1. Stáhne hranici ČR z Natural Earth API (online dataset)
+# 2. Definuje souřadnice a populaci měst
+# 3. Vypočítá Voronoi diagram — pro každé město vytvoří oblast "nejbližší" k němu
+# 4. Ořízne polygony na hranici ČR
+# 5. Vykreslí barevnou mapu se značkami měst
+# 6. Uloží výsledek jako PNG obrázek
+# 7. Automaticky otevře obrázek v prohlížeči
+#
+# Praktické použití: geografická analýza — která část ČR "patří" kterému městu
+# (pokud by se chodilo vždy k nejbližšímu městu)
+
+
+# CO NÁS PŘEKVAPILO
+# =================
+# 1. ELEGANCE VORONOI GEOMETRIE
+#    - Jeden řádek kódu (voronoi_diagram) vyřeší složitý geometrický problém
+#    - Výsledek je intuitivní a hezký — hranice polygonů jsou přesně na půli cesty
+#
+# 2. ONLINE DATA V PRAXI
+#    - Stažení dat z internetu je triviální (gpd.read_file + URL)
+#    - Nemusíme si data udržovat — používáme vždy nejnovější verzi
+#
+# 3. OŘEZ NA HRANICI
+#    - polygon.intersection(cr_geom) elegantně "ostříhá" polygony na reálné hranice ČR
+#    - Krajní polygony tak nezahrnují moře nebo cizí státy
+#
+# 4. VIZUÁLNĚ PARÁDNÍ VÝSTUP
+#    - Pár řádků matplotlib kódu vytvoří profesionální mapu
+#    - Barevná paleta, legenda, popisy — vše automaticky
+#
+# 5. PARAMETRICKÉ ZNAČKY
+#    - Velikost markerů měst je proporcionální populaci
+#    - Automaticky se počítá z dat — žádné hardcoding
+#
+# Nejpraktičtější: Od staženého datasetu po hezkou PNG mapu v < 100 řádků! 🗺️
