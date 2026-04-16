@@ -1,0 +1,8 @@
+# Závislosti pro zpracování geoprostorových dat
+geopandas==1.0.1
+
+# Vědecké výpočty a práce s poli
+numpy==2.2.6
+
+# Vizualizace a grafika
+matplotlib==3.9.0
