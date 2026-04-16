@@ -1,12 +1,20 @@
 
 
+# FUNKCE 1: vypocitej_vzdalenost_od_rovniku
+# Co dělá? Vypočítá vzdálenost od rovníku pro danou zeměpisnou šířku v km nebo mílích.
+# Problém 1: Chybí validace jednotky - když uživatel zadá neplatnou jednotku (např. "feet"), 
+#            funkce ji ignoruje bez upozornění a vrátí výsledek v km.
+# Problém 2: Chybí validace šířky - nezkontroluje, zda je šířka v rozsahu -90 až 90 stupňů.
+# Problém 3: Case-sensitive - "Míle" nebo "MÍLE" se neuznají, pouze přesně "míle".
+# OPRAVA: Přidán input validation a case-insensitive kontrola.
+
 def vypocitej_vzdalenost_od_rovniku(sirka: float, jednotka: str = "km", zaokrouhlit: bool = True) -> float:
     """
     Vypočítá vzdálenost od rovníku pro danou zeměpisnou šířku. 
     Parameters:
     -----------
     sirka : float
-        Zeměpisná šířka ve stupních
+        Zeměpisná šířka ve stupních (musí být -90 až 90)
     jednotka : str
         Jednotka vzdálenosti - "km" (kilometr) nebo "míle" (výchozí: "km")
     zaokrouhlit : bool
@@ -15,19 +23,42 @@ def vypocitej_vzdalenost_od_rovniku(sirka: float, jednotka: str = "km", zaokrouh
     --------
     float
         Vzdálenost od rovníku v zadané jednotce
+    Raises:
+    -------
+    ValueError
+        Pokud je šířka mimo rozsah -90 až 90 nebo jednotka není "km" nebo "míle"
     """
+    # Validace šířky
+    if not -90 <= sirka <= 90:
+        raise ValueError(f"Šířka musí být v rozsahu -90 až 90 stupňů, obdržena: {sirka}")
+    
+    # Validace jednotky (case-insensitive)
+    jednotka_lower = jednotka.lower()
+    if jednotka_lower not in ["km", "míle"]:
+        raise ValueError(f"Jednotka musí být 'km' nebo 'míle', obdržena: {jednotka}")
+    
     KM_NA_STUPEN = 111.32
     KM_NA_MILI = 0.621371
     
     vzdalenost = abs(sirka) * KM_NA_STUPEN
     
-    if jednotka == "míle":
+    if jednotka_lower == "míle":
         vzdalenost *= KM_NA_MILI
     
     if zaokrouhlit:
         vzdalenost = round(vzdalenost)
     
     return vzdalenost
+
+import json
+
+# FUNKCE 2: vytvor_geojson_bod
+# Co dělá? Vytvoří GeoJSON bod (FeatureCollection) s informacemi o místě a vzdáleností od rovníku.
+# Problém 1: Import json je uvnitř funkce místo na začátku modulu - méně efektivní a neobvyklé.
+# Problém 2: Chybí validace souřadnic - nezkontroluje, zda je lat v rozsahu -90 až 90, 
+#            lon v rozsahu -180 až 180.
+# Problém 3: Chybí kontrola vstupů - nevaliduje, zda jsou parametry správného typu a nejsou None.
+# OPRAVA: Import json je nyní na začátku, přidána validace souřadnic a vstupů.
 
 def vytvor_geojson_bod(nazev: str, lat: float, lon: float) -> str:
     """
@@ -37,15 +68,28 @@ def vytvor_geojson_bod(nazev: str, lat: float, lon: float) -> str:
     nazev : str
         Název místa
     lat : float
-        Zeměpisná šířka ve stupních (latitude)
+        Zeměpisná šířka ve stupních (latitude) - musí být -90 až 90
     lon : float
-        Zeměpisná délka ve stupních (longitude)
+        Zeměpisná délka ve stupních (longitude) - musí být -180 až 180
     Returns:
     --------
     str
         Validní GeoJSON bod ve formátu FeatureCollection s atributy nazev a vzdalenost_od_rovniku
+    Raises:
+    -------
+    ValueError
+        Pokud jsou souřadnice mimo platný rozsah nebo chybí vstupní parametry
+    TypeError
+        Pokud jsou parametry nesprávného typu
     """
-    import json 
+    # Validace vstupů
+    if not isinstance(nazev, str) or not nazev.strip():
+        raise ValueError("Název místa musí být neprázdný string")
+    if not isinstance(lat, (int, float)) or not -90 <= lat <= 90:
+        raise ValueError(f"Latitude musí být v rozsahu -90 až 90, obdržena: {lat}")
+    if not isinstance(lon, (int, float)) or not -180 <= lon <= 180:
+        raise ValueError(f"Longitude musí být v rozsahu -180 až 180, obdržena: {lon}")
+    
     # Vypočítej vzdálenost od rovníku
     vzdalenost = vypocitej_vzdalenost_od_rovniku(lat, jednotka="km", zaokrouhlit=False)
     # Vytvoř GeoJSON bod
@@ -69,7 +113,7 @@ def vytvor_geojson_bod(nazev: str, lat: float, lon: float) -> str:
     return json.dumps(geojson, indent=2, ensure_ascii=False)
 
 
-sirky = [0, 1234.4, 30.43434, 45.2 , 60.5, 90]
+sirky = [0, 45.4, 30.43434, 45.2 , 60.5, 90]
 
 print("=== Vzdálenosti v kilometrech ===")
 for sirka in sirky:
