@@ -14,3 +14,5 @@ for hodina, teplota in enumerate(mereni):
     pocet_platnych += 1
 
 print(f"\nPočet platných měření: {pocet_platnych}")
+
+#poznámky:
