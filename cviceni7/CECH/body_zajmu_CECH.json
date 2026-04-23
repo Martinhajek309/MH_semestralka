@@ -1,0 +1,57 @@
+[
+    {
+        "ID": 1,
+        "nazev_bodu": "Olomoucky orloj",
+        "souradnice": [
+            17.2518,
+            49.5938
+        ],
+        "typ": "pamatka",
+        "oteviraci_hodiny": {
+            "pondeli": "10:00-20:00",
+            "utery": "08:00-18:00",
+            "streda": "08:00-18:00",
+            "ctvrtek": "08:00-18:00",
+            "patek": "08:00-18:00",
+            "sobota": "09:00-17:00",
+            "nedele": "09:00-17:00"
+        }
+    },
+    {
+        "ID": 2,
+        "nazev_bodu": "Restaurace U Morice",
+        "souradnice": [
+            17.2501,
+            49.5945
+        ],
+        "typ": "restaurace",
+        "oteviraci_hodiny": {
+            "pondeli": "11:00-22:00",
+            "utery": "11:00-22:00",
+            "streda": "11:00-22:00",
+            "ctvrtek": "11:00-22:00",
+            "patek": "11:00-23:00",
+            "sobota": "11:00-23:00",
+            "nedele": "11:00-21:00"
+        },
+        "hodnoceni": 4.7
+    },
+    {
+        "ID": 3,
+        "nazev_bodu": "Kavarna Na rohu",
+        "souradnice": [
+            17.2487,
+            49.5921
+        ],
+        "typ": "restaurace",
+        "oteviraci_hodiny": {
+            "pondeli": "07:00-19:00",
+            "utery": "07:00-19:00",
+            "streda": "07:00-19:00",
+            "ctvrtek": "07:00-19:00",
+            "patek": "07:00-20:00",
+            "sobota": "08:00-20:00",
+            "nedele": "08:00-18:00"
+        }
+    }
+]

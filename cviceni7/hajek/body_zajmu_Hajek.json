@@ -1,0 +1,57 @@
+[
+    {
+        "ID": 1,
+        "nazev": "Kavárna U Náměstí",
+        "souradnice": [
+            49.5938,
+            17.2509
+        ],
+        "typ": "restaurace",
+        "oteviraci_hodiny": {
+            "pondeli": "ZMENENO_V_MELKE_KOPII",
+            "utery": "8:00-20:00"
+        }
+    },
+    {
+        "ID": 2,
+        "nazev": "Hrad",
+        "souradnice": [
+            49.595,
+            17.2515
+        ],
+        "typ": "pamatka",
+        "oteviraci_hodiny": {
+            "pondeli": "9:00-17:00",
+            "utery": "9:00-17:00"
+        },
+        "hodnoceni": 4.7
+    },
+    {
+        "ID": 3,
+        "nazev": "Pizzerie Napoli",
+        "souradnice": [
+            49.5942,
+            17.252
+        ],
+        "typ": "restaurace",
+        "oteviraci_hodiny": {
+            "pondeli": "11:00-22:00",
+            "utery": "11:00-22:00"
+        },
+        "hodnoceni": 3.5
+    },
+    {
+        "ID": 4,
+        "nazev": "Městské muzeum",
+        "souradnice": [
+            49.596,
+            17.253
+        ],
+        "typ": "pamatka",
+        "oteviraci_hodiny": {
+            "pondeli": "zavreno",
+            "utery": "9:00-16:00"
+        },
+        "hodnoceni": 2.8
+    }
+]

@@ -33,7 +33,7 @@ for mesto in mesta:
     populace = mesto["populace"]
     lat = mesto["souradnice"][0]
     lon = mesto["souradnice"][1]
-    
+
     print(f"{nazev}: {populace} obyvatel")
     print(f"  Souřadnice: {lat}° N, {lon}° E")
     print()
@@ -93,10 +93,10 @@ for mesto in mesta[1:]:
     nazev = mesto["nazev"]
     lat = mesto["souradnice"][0]
     lon = mesto["souradnice"][1]
-    
+
     # Zjednodušený výpočet (rozdíl souřadnic × přibližný převod na km)
     vzdalenost = ((lat - praha_lat) ** 2 + (lon - praha_lon) ** 2) ** 0.5 * 111
-    
+
     print(f"  {nazev}: ~{vzdalenost:.0f} km")
 
 print()

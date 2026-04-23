@@ -1,0 +1,4 @@
+Stáhne hranici ČR, spočítá Thiessenovy (Voronoi) polygony pro vybraná česká města,
+vykreslí barevnou mapu s městy (velikost bodů podle populace) a uloží obrázek
+`thiessenovy_polygony.png`.
+Překvapilo mě, že skript stahuje hranici ČR z Natural Earth.

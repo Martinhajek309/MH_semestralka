@@ -35,7 +35,8 @@ for mesto in mesta:
     lon = mesto["souradnice"][1]
     
     print(f"{nazev}: {populace} obyvatel")
-    print(f"  Souřadnice: {lat}° N, {lon}° E")
+
+    print(f" Souřadnice: {lat}° N, {lon}° E")
     print()
 
 # --- 3. Najdeme největší město ---

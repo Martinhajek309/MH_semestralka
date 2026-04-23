@@ -1,0 +1,11 @@
+úkol: Dostupnost škol do 15 minut pěšky - po síti ( síťová analýza)
+
+Výběr a příprava dat
+1. nahraj bodovou vrstvu skoly.shp v Olomouci
+2. nahraj vrstvu (network) pro pěší transport
+3. udělej síťovou analýzu Service Area: 
+	a) max. časová dostupnost 15 min
+	b) barva zelená
+4. výslednou vrstvu vyexportovat do požadovaného formátu
+	požadovaný formát: 
+5. Kontrola dat a jestli to tak v reálu doopravdy je

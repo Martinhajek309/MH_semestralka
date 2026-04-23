@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nazev": "Ústí nad Labem",
+        "vzdalenost_od_rovniku": 5639.75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0327,
+          50.6625
+        ]
+      }
+    }
+  ]
+}

@@ -15,7 +15,7 @@
 # ⚠️  Ke spuštění potřebujete nainstalovat knihovny!
 #     1. Vytvořte si virtuální prostředí
 #     2. Aktivujte hoe
-#     3. Nainstalujte knihovny
+#     3. Nainstalujte knihovnyupgrade
 #     4. Spusťte skript
 # ============================================================
 

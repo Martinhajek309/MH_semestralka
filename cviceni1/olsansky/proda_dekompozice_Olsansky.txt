@@ -1,0 +1,29 @@
+Dekompozice tvorby webové mapové aplikace
+
+1) Definice cíle a požadavků
+- Co má aplikace řešit (např. zobrazení bodů, filtrování, měření).
+- Kdo je uživatel a jaké funkce opravdu potřebuje.
+
+2) Příprava dat
+- Sběr a kontrola zdrojových dat (GeoJSON, CSV, WMS/WFS apod.).
+- Čištění dat, sjednocení souřadnicového systému, kontrola atributů.
+
+3) Návrh architektury
+- Volba technologií (např. Leaflet/OpenLayers + jednoduché API).
+- Rozdělení na frontend (mapa a UI), backend (data/služby), úložiště.
+
+4) Implementace mapové části
+- Základ mapy, podkladové vrstvy, tematické vrstvy.
+- Pop-up okna, legenda, zoom, vyhledávání nebo filtr.
+
+5) Implementace logiky aplikace
+- Načítání dat, stylování prvků podle atributů.
+- Ošetření chyb (nedostupná data, prázdné výsledky).
+
+6) Testování a ladění
+- Ověření funkčnosti na různých zařízeních/prohlížečích.
+- Kontrola výkonu (rychlost načítání, velikost dat).
+
+7) Nasazení a údržba
+- Publikace aplikace (server, cloud, GitHub Pages).
+- Dokumentace, aktualizace dat a průběžné opravy.
