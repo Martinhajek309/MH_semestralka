@@ -1,0 +1,12 @@
+
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [17.2509, 49.5938]
+  },
+  "properties": {
+    "nazev": "Olomouc",
+    "vzdalenost_od_rovniku": 5520.781816
+  }
+}
