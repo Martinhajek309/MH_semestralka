@@ -93,3 +93,20 @@ python src/benchmark_search.py
 ```
 
 Vysledky se ukladaji do `results/benchmark_search.csv`.
+
+## Polygon Ceske republiky
+
+Skript `src/prepare_ceska_republika_polygon.py` pripravuje polygon cele Ceske
+republiky pro doplnkovy benchmark prostorovych indexu. Pokud je ve slozce
+`data/` dostupna vrstva vsech kraju, skript ji pouzije; jinak stahne kraje z
+verejne ArcGIS REST sluzby Ceske geologicke sluzby
+`Topografie/uzemni_identifikace`, vrstva `Kraje`.
+
+Polygon Ceske republiky vznikne sjednocenim geometrii kraju do jednoho prvku.
+Soubor `data/ceska_republika.geojson` je ulozen v EPSG:4326 jako vymenny
+format. Soubor `data/ceska_republika_5514.geojson` je ulozen v EPSG:5514 a
+slouzi pro vypocty a benchmark v metrech.
+
+```powershell
+python src/prepare_ceska_republika_polygon.py
+```
