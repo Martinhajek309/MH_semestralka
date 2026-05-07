@@ -1,0 +1,8012 @@
+{
+  "type": "FeatureCollection",
+  "name": "random_points_500_olomoucky_kraj_5514",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:5514"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -557461.9074378985,
+          -1135466.7856823609
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "dataset_size": 500,
+        "x": -557461.9074378985,
+        "y": -1135466.7856823609
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -578205.2506975522,
+          -1132614.1827235438
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "dataset_size": 500,
+        "x": -578205.2506975522,
+        "y": -1132614.1827235438
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -554101.1388530178,
+          -1074222.1780213704
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "dataset_size": 500,
+        "x": -554101.1388530178,
+        "y": -1074222.1780213704
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -559516.8192202444,
+          -1100668.3533913228
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "dataset_size": 500,
+        "x": -559516.8192202444,
+        "y": -1100668.3533913228
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -545897.9123644299,
+          -1106425.7648669297
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "dataset_size": 500,
+        "x": -545897.9123644299,
+        "y": -1106425.7648669297
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -514451.0752162886,
+          -1126394.8077877215
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "dataset_size": 500,
+        "x": -514451.0752162886,
+        "y": -1126394.8077877215
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -506960.0610311348,
+          -1122488.7480328057
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "dataset_size": 500,
+        "x": -506960.0610311348,
+        "y": -1122488.7480328057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -558286.250649433,
+          -1101678.7399834897
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "dataset_size": 500,
+        "x": -558286.250649433,
+        "y": -1101678.7399834897
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -579012.3944064137,
+          -1074283.1368436667
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "dataset_size": 500,
+        "x": -579012.3944064137,
+        "y": -1074283.1368436667
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -576717.3809997096,
+          -1131537.0103623497
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "dataset_size": 500,
+        "x": -576717.3809997096,
+        "y": -1131537.0103623497
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -561580.4089869299,
+          -1113932.2548025046
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "dataset_size": 500,
+        "x": -561580.4089869299,
+        "y": -1113932.2548025046
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -550402.4520133894,
+          -1055063.4448952263
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "dataset_size": 500,
+        "x": -550402.4520133894,
+        "y": -1055063.4448952263
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -566562.0611756771,
+          -1097848.4686686096
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "dataset_size": 500,
+        "x": -566562.0611756771,
+        "y": -1097848.4686686096
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -539803.9337099419,
+          -1141493.5157344325
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "dataset_size": 500,
+        "x": -539803.9337099419,
+        "y": -1141493.5157344325
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -543304.0083530968,
+          -1102791.5399042473
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "dataset_size": 500,
+        "x": -543304.0083530968,
+        "y": -1102791.5399042473
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -556751.7918823597,
+          -1030814.0840485874
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "dataset_size": 500,
+        "x": -556751.7918823597,
+        "y": -1030814.0840485874
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552913.3459814535,
+          -1123673.4356112562
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "dataset_size": 500,
+        "x": -552913.3459814535,
+        "y": -1123673.4356112562
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -534600.5874489982,
+          -1132383.9796856705
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "dataset_size": 500,
+        "x": -534600.5874489982,
+        "y": -1132383.9796856705
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -532240.9275771905,
+          -1103327.2381498446
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "dataset_size": 500,
+        "x": -532240.9275771905,
+        "y": -1103327.2381498446
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552580.7868476416,
+          -1095219.4930153464
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "dataset_size": 500,
+        "x": -552580.7868476416,
+        "y": -1095219.4930153464
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -530285.027111513,
+          -1047377.7851869733
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "dataset_size": 500,
+        "x": -530285.027111513,
+        "y": -1047377.7851869733
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -550179.0102402068,
+          -1051043.1249445344
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "dataset_size": 500,
+        "x": -550179.0102402068,
+        "y": -1051043.1249445344
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552574.0808643874,
+          -1146746.549952297
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "dataset_size": 500,
+        "x": -552574.0808643874,
+        "y": -1146746.549952297
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -564045.6149692165,
+          -1113156.2871766025
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "dataset_size": 500,
+        "x": -564045.6149692165,
+        "y": -1113156.2871766025
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -532116.8897296973,
+          -1102172.6003012424
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "dataset_size": 500,
+        "x": -532116.8897296973,
+        "y": -1102172.6003012424
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -538378.2117159576,
+          -1139938.7262653373
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "dataset_size": 500,
+        "x": -538378.2117159576,
+        "y": -1139938.7262653373
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -575488.1506653641,
+          -1077299.5905261377
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "dataset_size": 500,
+        "x": -575488.1506653641,
+        "y": -1077299.5905261377
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -555503.6385754986,
+          -1107437.7184654707
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "dataset_size": 500,
+        "x": -555503.6385754986,
+        "y": -1107437.7184654707
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -525756.0567742122,
+          -1105456.1088874987
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "dataset_size": 500,
+        "x": -525756.0567742122,
+        "y": -1105456.1088874987
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -540058.7816101224,
+          -1142671.436299269
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "dataset_size": 500,
+        "x": -540058.7816101224,
+        "y": -1142671.436299269
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -564048.5415641022,
+          -1099346.3572308423
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "dataset_size": 500,
+        "x": -564048.5415641022,
+        "y": -1099346.3572308423
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -564247.5194918643,
+          -1087485.0305679315
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "dataset_size": 500,
+        "x": -564247.5194918643,
+        "y": -1087485.0305679315
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -566002.0964078108,
+          -1088076.979509075
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "dataset_size": 500,
+        "x": -566002.0964078108,
+        "y": -1088076.979509075
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -550702.6640703898,
+          -1064333.6801141042
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "dataset_size": 500,
+        "x": -550702.6640703898,
+        "y": -1064333.6801141042
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -548715.0895677278,
+          -1049804.0576275575
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "dataset_size": 500,
+        "x": -548715.0895677278,
+        "y": -1049804.0576275575
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -539651.0675342614,
+          -1045272.9007236686
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "dataset_size": 500,
+        "x": -539651.0675342614,
+        "y": -1045272.9007236686
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -521408.80233136355,
+          -1143100.093625559
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "dataset_size": 500,
+        "x": -521408.80233136355,
+        "y": -1143100.093625559
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -548018.8957696137,
+          -1036690.9486086417
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "dataset_size": 500,
+        "x": -548018.8957696137,
+        "y": -1036690.9486086417
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -506553.7105311046,
+          -1125709.3979366962
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "dataset_size": 500,
+        "x": -506553.7105311046,
+        "y": -1125709.3979366962
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -561186.8674456491,
+          -1077275.8675208674
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "dataset_size": 500,
+        "x": -561186.8674456491,
+        "y": -1077275.8675208674
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -525724.6838625694,
+          -1138091.844982863
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "dataset_size": 500,
+        "x": -525724.6838625694,
+        "y": -1138091.844982863
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -553190.143396649,
+          -1043802.5461627737
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "dataset_size": 500,
+        "x": -553190.143396649,
+        "y": -1043802.5461627737
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -578254.5027912912,
+          -1080542.9945448204
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "dataset_size": 500,
+        "x": -578254.5027912912,
+        "y": -1080542.9945448204
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -517451.05460079317,
+          -1119567.469585208
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "dataset_size": 500,
+        "x": -517451.05460079317,
+        "y": -1119567.469585208
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -564119.0037774543,
+          -1061047.6606640152
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "dataset_size": 500,
+        "x": -564119.0037774543,
+        "y": -1061047.6606640152
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -556406.7649131833,
+          -1132607.1357802944
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "dataset_size": 500,
+        "x": -556406.7649131833,
+        "y": -1132607.1357802944
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -535934.1169304327,
+          -1119847.9987072728
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "dataset_size": 500,
+        "x": -535934.1169304327,
+        "y": -1119847.9987072728
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -579431.6808601295,
+          -1075192.9599753516
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "dataset_size": 500,
+        "x": -579431.6808601295,
+        "y": -1075192.9599753516
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -568606.7463096483,
+          -1106284.532091387
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "dataset_size": 500,
+        "x": -568606.7463096483,
+        "y": -1106284.532091387
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -576241.8792864103,
+          -1093706.779881427
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "dataset_size": 500,
+        "x": -576241.8792864103,
+        "y": -1093706.779881427
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -544941.2274987058,
+          -1124226.1427476679
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "dataset_size": 500,
+        "x": -544941.2274987058,
+        "y": -1124226.1427476679
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -577078.343131628,
+          -1125302.9345316836
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "dataset_size": 500,
+        "x": -577078.343131628,
+        "y": -1125302.9345316836
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -550919.2680237228,
+          -1110864.5076471847
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "dataset_size": 500,
+        "x": -550919.2680237228,
+        "y": -1110864.5076471847
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -539027.5559312217,
+          -1052176.915353106
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "dataset_size": 500,
+        "x": -539027.5559312217,
+        "y": -1052176.915353106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -554063.6038513975,
+          -1035401.0935206214
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "dataset_size": 500,
+        "x": -554063.6038513975,
+        "y": -1035401.0935206214
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -504096.82929105486,
+          -1130828.4121874846
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "dataset_size": 500,
+        "x": -504096.82929105486,
+        "y": -1130828.4121874846
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -514393.6367927678,
+          -1105748.8531500332
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "dataset_size": 500,
+        "x": -514393.6367927678,
+        "y": -1105748.8531500332
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -544762.3017022063,
+          -1101766.616428488
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "dataset_size": 500,
+        "x": -544762.3017022063,
+        "y": -1101766.616428488
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -536685.4900737931,
+          -1095228.1088412513
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "dataset_size": 500,
+        "x": -536685.4900737931,
+        "y": -1095228.1088412513
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -546743.513822982,
+          -1144510.70709586
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "dataset_size": 500,
+        "x": -546743.513822982,
+        "y": -1144510.70709586
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -557634.5421885788,
+          -1139784.8527168715
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "dataset_size": 500,
+        "x": -557634.5421885788,
+        "y": -1139784.8527168715
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552294.460043271,
+          -1047509.3367990567
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "dataset_size": 500,
+        "x": -552294.460043271,
+        "y": -1047509.3367990567
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -554545.7145867317,
+          -1129602.7083620634
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "dataset_size": 500,
+        "x": -554545.7145867317,
+        "y": -1129602.7083620634
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -527013.91681979,
+          -1110619.5193984457
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "dataset_size": 500,
+        "x": -527013.91681979,
+        "y": -1110619.5193984457
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -516746.90567962034,
+          -1137739.525235509
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "dataset_size": 500,
+        "x": -516746.90567962034,
+        "y": -1137739.525235509
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552742.584051442,
+          -1049668.89884307
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "dataset_size": 500,
+        "x": -552742.584051442,
+        "y": -1049668.89884307
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -571256.7266668455,
+          -1085496.8869648862
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "dataset_size": 500,
+        "x": -571256.7266668455,
+        "y": -1085496.8869648862
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -557614.5389430901,
+          -1106094.0375655629
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "dataset_size": 500,
+        "x": -557614.5389430901,
+        "y": -1106094.0375655629
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -564157.2101430728,
+          -1145087.2455551338
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "dataset_size": 500,
+        "x": -564157.2101430728,
+        "y": -1145087.2455551338
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -553543.2742665205,
+          -1147076.856484334
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "dataset_size": 500,
+        "x": -553543.2742665205,
+        "y": -1147076.856484334
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -557066.8088223187,
+          -1081833.3097008746
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "dataset_size": 500,
+        "x": -557066.8088223187,
+        "y": -1081833.3097008746
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -525420.6100304151,
+          -1141251.7403168234
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "dataset_size": 500,
+        "x": -525420.6100304151,
+        "y": -1141251.7403168234
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -557612.1926343547,
+          -1081636.3332969577
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "dataset_size": 500,
+        "x": -557612.1926343547,
+        "y": -1081636.3332969577
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -527396.648903853,
+          -1141050.7454375199
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "dataset_size": 500,
+        "x": -527396.648903853,
+        "y": -1141050.7454375199
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -537394.7367864288,
+          -1042774.1538586877
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "dataset_size": 500,
+        "x": -537394.7367864288,
+        "y": -1042774.1538586877
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -538527.7428526438,
+          -1117210.5525474246
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "dataset_size": 500,
+        "x": -538527.7428526438,
+        "y": -1117210.5525474246
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -561048.0422973564,
+          -1083577.0949624411
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "dataset_size": 500,
+        "x": -561048.0422973564,
+        "y": -1083577.0949624411
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -570957.7832469061,
+          -1110552.0532157596
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "dataset_size": 500,
+        "x": -570957.7832469061,
+        "y": -1110552.0532157596
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -546532.3922447836,
+          -1102065.0617764182
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "dataset_size": 500,
+        "x": -546532.3922447836,
+        "y": -1102065.0617764182
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -557376.9312980914,
+          -1136818.8392960047
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "dataset_size": 500,
+        "x": -557376.9312980914,
+        "y": -1136818.8392960047
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -545142.9748966813,
+          -1058824.9712665468
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "dataset_size": 500,
+        "x": -545142.9748966813,
+        "y": -1058824.9712665468
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -542462.6111743572,
+          -1060483.3404687594
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "dataset_size": 500,
+        "x": -542462.6111743572,
+        "y": -1060483.3404687594
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -556764.0708087533,
+          -1107054.2940140846
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "dataset_size": 500,
+        "x": -556764.0708087533,
+        "y": -1107054.2940140846
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -558539.3198887169,
+          -1031245.6511175454
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "dataset_size": 500,
+        "x": -558539.3198887169,
+        "y": -1031245.6511175454
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552627.9169062437,
+          -1112970.2294343126
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "dataset_size": 500,
+        "x": -552627.9169062437,
+        "y": -1112970.2294343126
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -557003.5723299492,
+          -1136068.2980247072
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "dataset_size": 500,
+        "x": -557003.5723299492,
+        "y": -1136068.2980247072
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -531746.5129076227,
+          -1052636.9551412312
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "dataset_size": 500,
+        "x": -531746.5129076227,
+        "y": -1052636.9551412312
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -541584.7446220112,
+          -1137301.6504302574
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "dataset_size": 500,
+        "x": -541584.7446220112,
+        "y": -1137301.6504302574
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -532126.009828816,
+          -1140460.517981088
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "dataset_size": 500,
+        "x": -532126.009828816,
+        "y": -1140460.517981088
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -524756.3003112924,
+          -1131958.943671831
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "dataset_size": 500,
+        "x": -524756.3003112924,
+        "y": -1131958.943671831
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -526145.7880048729,
+          -1135174.094644139
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "dataset_size": 500,
+        "x": -526145.7880048729,
+        "y": -1135174.094644139
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552061.8147227769,
+          -1107051.0562796877
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "dataset_size": 500,
+        "x": -552061.8147227769,
+        "y": -1107051.0562796877
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -551756.4868252703,
+          -1030287.7749648179
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "dataset_size": 500,
+        "x": -551756.4868252703,
+        "y": -1030287.7749648179
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -516096.1412851308,
+          -1112089.3502240076
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "dataset_size": 500,
+        "x": -516096.1412851308,
+        "y": -1112089.3502240076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -553592.7964660699,
+          -1103119.433765507
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "dataset_size": 500,
+        "x": -553592.7964660699,
+        "y": -1103119.433765507
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -553545.6092433154,
+          -1054393.941197275
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "dataset_size": 500,
+        "x": -553545.6092433154,
+        "y": -1054393.941197275
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -571266.3758642764,
+          -1065002.6960719605
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "dataset_size": 500,
+        "x": -571266.3758642764,
+        "y": -1065002.6960719605
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -569775.7649618762,
+          -1108663.6276958073
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "dataset_size": 500,
+        "x": -569775.7649618762,
+        "y": -1108663.6276958073
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -574081.3134129131,
+          -1118416.0408435364
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "dataset_size": 500,
+        "x": -574081.3134129131,
+        "y": -1118416.0408435364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552942.782728724,
+          -1122408.6858371308
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "dataset_size": 500,
+        "x": -552942.782728724,
+        "y": -1122408.6858371308
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -564617.8525597166,
+          -1096154.2226406366
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "dataset_size": 500,
+        "x": -564617.8525597166,
+        "y": -1096154.2226406366
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -512023.204046659,
+          -1121463.5443013245
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "dataset_size": 500,
+        "x": -512023.204046659,
+        "y": -1121463.5443013245
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -568017.4614624771,
+          -1125361.578828762
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "dataset_size": 500,
+        "x": -568017.4614624771,
+        "y": -1125361.578828762
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552942.4860931761,
+          -1105813.934006438
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "dataset_size": 500,
+        "x": -552942.4860931761,
+        "y": -1105813.934006438
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -567805.5544771734,
+          -1101054.3756800122
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "dataset_size": 500,
+        "x": -567805.5544771734,
+        "y": -1101054.3756800122
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -547652.6896186878,
+          -1080735.9008522765
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "dataset_size": 500,
+        "x": -547652.6896186878,
+        "y": -1080735.9008522765
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -526162.0203944957,
+          -1112441.4389043928
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "dataset_size": 500,
+        "x": -526162.0203944957,
+        "y": -1112441.4389043928
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -575044.2515189869,
+          -1139074.7418997292
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "dataset_size": 500,
+        "x": -575044.2515189869,
+        "y": -1139074.7418997292
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -565402.344208208,
+          -1134743.042004785
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "dataset_size": 500,
+        "x": -565402.344208208,
+        "y": -1134743.042004785
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -581194.8370118387,
+          -1120756.3611104572
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "dataset_size": 500,
+        "x": -581194.8370118387,
+        "y": -1120756.3611104572
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -512319.1975083533,
+          -1127308.9018290413
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "dataset_size": 500,
+        "x": -512319.1975083533,
+        "y": -1127308.9018290413
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -535972.3499726147,
+          -1133763.823154505
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "dataset_size": 500,
+        "x": -535972.3499726147,
+        "y": -1133763.823154505
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -559075.7446634338,
+          -1122955.3788745229
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "dataset_size": 500,
+        "x": -559075.7446634338,
+        "y": -1122955.3788745229
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -528509.0884372689,
+          -1100332.9573777465
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "dataset_size": 500,
+        "x": -528509.0884372689,
+        "y": -1100332.9573777465
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552895.2402529356,
+          -1068818.835903816
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "dataset_size": 500,
+        "x": -552895.2402529356,
+        "y": -1068818.835903816
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -548457.0659504129,
+          -1124428.9110084216
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "dataset_size": 500,
+        "x": -548457.0659504129,
+        "y": -1124428.9110084216
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552842.5954128351,
+          -1078715.1829762312
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "dataset_size": 500,
+        "x": -552842.5954128351,
+        "y": -1078715.1829762312
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -537218.7760018182,
+          -1127627.243379778
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "dataset_size": 500,
+        "x": -537218.7760018182,
+        "y": -1127627.243379778
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -574144.5416733766,
+          -1129526.5665703719
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "dataset_size": 500,
+        "x": -574144.5416733766,
+        "y": -1129526.5665703719
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -540078.8477252295,
+          -1101884.7487228974
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "dataset_size": 500,
+        "x": -540078.8477252295,
+        "y": -1101884.7487228974
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -568834.8032111151,
+          -1091337.8652043764
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "dataset_size": 500,
+        "x": -568834.8032111151,
+        "y": -1091337.8652043764
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -539789.2230638909,
+          -1094009.5314605453
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "dataset_size": 500,
+        "x": -539789.2230638909,
+        "y": -1094009.5314605453
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -572857.329934007,
+          -1077404.6043959076
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "dataset_size": 500,
+        "x": -572857.329934007,
+        "y": -1077404.6043959076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -557973.7689026211,
+          -1139782.0737073673
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "dataset_size": 500,
+        "x": -557973.7689026211,
+        "y": -1139782.0737073673
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -526728.0500780283,
+          -1128282.2224399017
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "dataset_size": 500,
+        "x": -526728.0500780283,
+        "y": -1128282.2224399017
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -554999.1110614529,
+          -1135023.5265221423
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "dataset_size": 500,
+        "x": -554999.1110614529,
+        "y": -1135023.5265221423
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -569049.3841436058,
+          -1110154.3033165818
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "dataset_size": 500,
+        "x": -569049.3841436058,
+        "y": -1110154.3033165818
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -557191.7970905617,
+          -1064812.1772127436
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "dataset_size": 500,
+        "x": -557191.7970905617,
+        "y": -1064812.1772127436
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -576021.4291971974,
+          -1112978.2111553997
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "dataset_size": 500,
+        "x": -576021.4291971974,
+        "y": -1112978.2111553997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -564811.0145222488,
+          -1111402.4950476228
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "dataset_size": 500,
+        "x": -564811.0145222488,
+        "y": -1111402.4950476228
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -569974.2224768382,
+          -1078645.7650189141
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "dataset_size": 500,
+        "x": -569974.2224768382,
+        "y": -1078645.7650189141
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -553506.3073464386,
+          -1092400.2539699548
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "dataset_size": 500,
+        "x": -553506.3073464386,
+        "y": -1092400.2539699548
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -550995.4630628141,
+          -1099051.0434421224
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "dataset_size": 500,
+        "x": -550995.4630628141,
+        "y": -1099051.0434421224
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -562216.9427454673,
+          -1106932.0060081622
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "dataset_size": 500,
+        "x": -562216.9427454673,
+        "y": -1106932.0060081622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -551890.912206159,
+          -1119413.3300120328
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "dataset_size": 500,
+        "x": -551890.912206159,
+        "y": -1119413.3300120328
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -535641.9765826018,
+          -1143562.9117300184
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "dataset_size": 500,
+        "x": -535641.9765826018,
+        "y": -1143562.9117300184
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -558306.040392511,
+          -1066136.403085364
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "dataset_size": 500,
+        "x": -558306.040392511,
+        "y": -1066136.403085364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -545965.1774997495,
+          -1109429.0212429718
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "dataset_size": 500,
+        "x": -545965.1774997495,
+        "y": -1109429.0212429718
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -561435.155542758,
+          -1063866.4735680632
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "dataset_size": 500,
+        "x": -561435.155542758,
+        "y": -1063866.4735680632
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -544049.8837294201,
+          -1041047.1712899188
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "dataset_size": 500,
+        "x": -544049.8837294201,
+        "y": -1041047.1712899188
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -556645.0131255158,
+          -1079975.78986043
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "dataset_size": 500,
+        "x": -556645.0131255158,
+        "y": -1079975.78986043
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -533504.51037428,
+          -1126537.0913733132
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "dataset_size": 500,
+        "x": -533504.51037428,
+        "y": -1126537.0913733132
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -535041.2423845641,
+          -1043886.6922843242
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "dataset_size": 500,
+        "x": -535041.2423845641,
+        "y": -1043886.6922843242
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -564467.438448383,
+          -1060174.7042178803
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "dataset_size": 500,
+        "x": -564467.438448383,
+        "y": -1060174.7042178803
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -533595.7299889898,
+          -1144944.4690096534
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "dataset_size": 500,
+        "x": -533595.7299889898,
+        "y": -1144944.4690096534
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -545418.283345757,
+          -1111923.448071637
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "dataset_size": 500,
+        "x": -545418.283345757,
+        "y": -1111923.448071637
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -542051.8963595591,
+          -1114794.026854404
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "dataset_size": 500,
+        "x": -542051.8963595591,
+        "y": -1114794.026854404
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -577551.0778975462,
+          -1091865.4741191766
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "dataset_size": 500,
+        "x": -577551.0778975462,
+        "y": -1091865.4741191766
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -543156.7996860002,
+          -1063994.6603085038
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "dataset_size": 500,
+        "x": -543156.7996860002,
+        "y": -1063994.6603085038
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -565402.61412995,
+          -1132457.6664516265
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "dataset_size": 500,
+        "x": -565402.61412995,
+        "y": -1132457.6664516265
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -561266.5431116865,
+          -1026066.6656983618
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "dataset_size": 500,
+        "x": -561266.5431116865,
+        "y": -1026066.6656983618
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -521504.22938289715,
+          -1142256.0180249037
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "dataset_size": 500,
+        "x": -521504.22938289715,
+        "y": -1142256.0180249037
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552607.8942252742,
+          -1126215.5504834144
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "dataset_size": 500,
+        "x": -552607.8942252742,
+        "y": -1126215.5504834144
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -556295.4012426942,
+          -1050219.4745862007
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "dataset_size": 500,
+        "x": -556295.4012426942,
+        "y": -1050219.4745862007
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -555926.0031438662,
+          -1046782.1297390293
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "dataset_size": 500,
+        "x": -555926.0031438662,
+        "y": -1046782.1297390293
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -569435.6565876842,
+          -1065983.7593031812
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "dataset_size": 500,
+        "x": -569435.6565876842,
+        "y": -1065983.7593031812
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -528005.5702287044,
+          -1132006.1890582105
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "dataset_size": 500,
+        "x": -528005.5702287044,
+        "y": -1132006.1890582105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -545040.3649009628,
+          -1132969.1509269678
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "dataset_size": 500,
+        "x": -545040.3649009628,
+        "y": -1132969.1509269678
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -554917.5318055305,
+          -1149100.1959215677
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "dataset_size": 500,
+        "x": -554917.5318055305,
+        "y": -1149100.1959215677
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -543993.428889345,
+          -1066888.6380174977
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "dataset_size": 500,
+        "x": -543993.428889345,
+        "y": -1066888.6380174977
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -539849.9270198052,
+          -1135943.564592966
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "dataset_size": 500,
+        "x": -539849.9270198052,
+        "y": -1135943.564592966
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -558021.4649342558,
+          -1107569.075962293
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "dataset_size": 500,
+        "x": -558021.4649342558,
+        "y": -1107569.075962293
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -565311.5919745904,
+          -1051989.8459548692
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "dataset_size": 500,
+        "x": -565311.5919745904,
+        "y": -1051989.8459548692
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -560776.2023391963,
+          -1106519.1079205584
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "dataset_size": 500,
+        "x": -560776.2023391963,
+        "y": -1106519.1079205584
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -567839.8780569066,
+          -1071733.2457130828
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "dataset_size": 500,
+        "x": -567839.8780569066,
+        "y": -1071733.2457130828
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -565700.091676691,
+          -1130623.77096842
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "dataset_size": 500,
+        "x": -565700.091676691,
+        "y": -1130623.77096842
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -533213.1492016381,
+          -1146720.5802042622
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "dataset_size": 500,
+        "x": -533213.1492016381,
+        "y": -1146720.5802042622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -574406.6824048857,
+          -1109016.2391884807
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "dataset_size": 500,
+        "x": -574406.6824048857,
+        "y": -1109016.2391884807
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -550181.285697206,
+          -1137964.380291625
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "dataset_size": 500,
+        "x": -550181.285697206,
+        "y": -1137964.380291625
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -535031.449834892,
+          -1130597.5308361445
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "dataset_size": 500,
+        "x": -535031.449834892,
+        "y": -1130597.5308361445
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -575407.3640500171,
+          -1137456.4896171517
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "dataset_size": 500,
+        "x": -575407.3640500171,
+        "y": -1137456.4896171517
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -546351.1965990929,
+          -1137315.6690339393
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "dataset_size": 500,
+        "x": -546351.1965990929,
+        "y": -1137315.6690339393
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -579498.3674878776,
+          -1134563.3369265595
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "dataset_size": 500,
+        "x": -579498.3674878776,
+        "y": -1134563.3369265595
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -567334.4831525462,
+          -1086230.4315677353
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "dataset_size": 500,
+        "x": -567334.4831525462,
+        "y": -1086230.4315677353
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -510021.83833335736,
+          -1131782.854332449
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "dataset_size": 500,
+        "x": -510021.83833335736,
+        "y": -1131782.854332449
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -575830.9530141462,
+          -1079408.0579867635
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "dataset_size": 500,
+        "x": -575830.9530141462,
+        "y": -1079408.0579867635
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -540119.9101881259,
+          -1137773.2065580373
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "dataset_size": 500,
+        "x": -540119.9101881259,
+        "y": -1137773.2065580373
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -519312.35520570877,
+          -1136265.102877908
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "dataset_size": 500,
+        "x": -519312.35520570877,
+        "y": -1136265.102877908
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -573237.7233046587,
+          -1066322.3026873928
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "dataset_size": 500,
+        "x": -573237.7233046587,
+        "y": -1066322.3026873928
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -574640.2490748808,
+          -1126738.9935846976
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "dataset_size": 500,
+        "x": -574640.2490748808,
+        "y": -1126738.9935846976
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -577313.0572937913,
+          -1116080.395376188
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "dataset_size": 500,
+        "x": -577313.0572937913,
+        "y": -1116080.395376188
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -517377.0376290376,
+          -1114941.4185736228
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "dataset_size": 500,
+        "x": -517377.0376290376,
+        "y": -1114941.4185736228
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -514106.8335994723,
+          -1129674.1246070133
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "dataset_size": 500,
+        "x": -514106.8335994723,
+        "y": -1129674.1246070133
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -550405.7963647891,
+          -1113963.3742270893
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "dataset_size": 500,
+        "x": -550405.7963647891,
+        "y": -1113963.3742270893
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -567002.8533344325,
+          -1123677.9738858386
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "dataset_size": 500,
+        "x": -567002.8533344325,
+        "y": -1123677.9738858386
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552198.5254617606,
+          -1139725.9363808797
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "dataset_size": 500,
+        "x": -552198.5254617606,
+        "y": -1139725.9363808797
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -544554.3900233926,
+          -1034700.3388490988
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "dataset_size": 500,
+        "x": -544554.3900233926,
+        "y": -1034700.3388490988
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -557459.7994521034,
+          -1085993.892930339
+        ]
+      },
+      "properties": {
+        "id": 188,
+        "dataset_size": 500,
+        "x": -557459.7994521034,
+        "y": -1085993.892930339
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -546237.4787114753,
+          -1138374.468587454
+        ]
+      },
+      "properties": {
+        "id": 189,
+        "dataset_size": 500,
+        "x": -546237.4787114753,
+        "y": -1138374.468587454
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -539002.9116691651,
+          -1135468.3654665146
+        ]
+      },
+      "properties": {
+        "id": 190,
+        "dataset_size": 500,
+        "x": -539002.9116691651,
+        "y": -1135468.3654665146
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -522960.83554672205,
+          -1137100.4446934338
+        ]
+      },
+      "properties": {
+        "id": 191,
+        "dataset_size": 500,
+        "x": -522960.83554672205,
+        "y": -1137100.4446934338
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -534175.56310219,
+          -1108381.8093266948
+        ]
+      },
+      "properties": {
+        "id": 192,
+        "dataset_size": 500,
+        "x": -534175.56310219,
+        "y": -1108381.8093266948
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -546455.974891524,
+          -1124738.9150374744
+        ]
+      },
+      "properties": {
+        "id": 193,
+        "dataset_size": 500,
+        "x": -546455.974891524,
+        "y": -1124738.9150374744
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -548732.2279904712,
+          -1047596.9851541964
+        ]
+      },
+      "properties": {
+        "id": 194,
+        "dataset_size": 500,
+        "x": -548732.2279904712,
+        "y": -1047596.9851541964
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -522108.2973417957,
+          -1133856.4202755096
+        ]
+      },
+      "properties": {
+        "id": 195,
+        "dataset_size": 500,
+        "x": -522108.2973417957,
+        "y": -1133856.4202755096
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -561206.7977413656,
+          -1031382.5228038802
+        ]
+      },
+      "properties": {
+        "id": 196,
+        "dataset_size": 500,
+        "x": -561206.7977413656,
+        "y": -1031382.5228038802
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -557175.2217014013,
+          -1141238.9215917483
+        ]
+      },
+      "properties": {
+        "id": 197,
+        "dataset_size": 500,
+        "x": -557175.2217014013,
+        "y": -1141238.9215917483
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -518497.6251938428,
+          -1131188.5615560946
+        ]
+      },
+      "properties": {
+        "id": 198,
+        "dataset_size": 500,
+        "x": -518497.6251938428,
+        "y": -1131188.5615560946
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -561549.0181622884,
+          -1142157.78430892
+        ]
+      },
+      "properties": {
+        "id": 199,
+        "dataset_size": 500,
+        "x": -561549.0181622884,
+        "y": -1142157.78430892
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -566706.4807717559,
+          -1061587.7132010611
+        ]
+      },
+      "properties": {
+        "id": 200,
+        "dataset_size": 500,
+        "x": -566706.4807717559,
+        "y": -1061587.7132010611
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -514186.7922195613,
+          -1122890.8512862488
+        ]
+      },
+      "properties": {
+        "id": 201,
+        "dataset_size": 500,
+        "x": -514186.7922195613,
+        "y": -1122890.8512862488
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -532027.1566515145,
+          -1146217.822385219
+        ]
+      },
+      "properties": {
+        "id": 202,
+        "dataset_size": 500,
+        "x": -532027.1566515145,
+        "y": -1146217.822385219
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -547126.5535844235,
+          -1116982.698914776
+        ]
+      },
+      "properties": {
+        "id": 203,
+        "dataset_size": 500,
+        "x": -547126.5535844235,
+        "y": -1116982.698914776
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -554269.2117391388,
+          -1070999.7925798984
+        ]
+      },
+      "properties": {
+        "id": 204,
+        "dataset_size": 500,
+        "x": -554269.2117391388,
+        "y": -1070999.7925798984
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -542014.7467869913,
+          -1129916.572635301
+        ]
+      },
+      "properties": {
+        "id": 205,
+        "dataset_size": 500,
+        "x": -542014.7467869913,
+        "y": -1129916.572635301
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -522596.7151855954,
+          -1110485.40461863
+        ]
+      },
+      "properties": {
+        "id": 206,
+        "dataset_size": 500,
+        "x": -522596.7151855954,
+        "y": -1110485.40461863
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -549991.5988074546,
+          -1124767.995912051
+        ]
+      },
+      "properties": {
+        "id": 207,
+        "dataset_size": 500,
+        "x": -549991.5988074546,
+        "y": -1124767.995912051
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -534504.7523862937,
+          -1103270.7050928695
+        ]
+      },
+      "properties": {
+        "id": 208,
+        "dataset_size": 500,
+        "x": -534504.7523862937,
+        "y": -1103270.7050928695
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -545906.709770643,
+          -1051921.1851919424
+        ]
+      },
+      "properties": {
+        "id": 209,
+        "dataset_size": 500,
+        "x": -545906.709770643,
+        "y": -1051921.1851919424
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -568267.9912686972,
+          -1102408.6990162192
+        ]
+      },
+      "properties": {
+        "id": 210,
+        "dataset_size": 500,
+        "x": -568267.9912686972,
+        "y": -1102408.6990162192
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -560436.2544152286,
+          -1078610.0092620284
+        ]
+      },
+      "properties": {
+        "id": 211,
+        "dataset_size": 500,
+        "x": -560436.2544152286,
+        "y": -1078610.0092620284
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -534152.7274672113,
+          -1127958.3581353375
+        ]
+      },
+      "properties": {
+        "id": 212,
+        "dataset_size": 500,
+        "x": -534152.7274672113,
+        "y": -1127958.3581353375
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552771.8693479996,
+          -1103875.0401931677
+        ]
+      },
+      "properties": {
+        "id": 213,
+        "dataset_size": 500,
+        "x": -552771.8693479996,
+        "y": -1103875.0401931677
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -553661.1857223823,
+          -1066884.5256170896
+        ]
+      },
+      "properties": {
+        "id": 214,
+        "dataset_size": 500,
+        "x": -553661.1857223823,
+        "y": -1066884.5256170896
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -558617.9215011742,
+          -1125438.614714076
+        ]
+      },
+      "properties": {
+        "id": 215,
+        "dataset_size": 500,
+        "x": -558617.9215011742,
+        "y": -1125438.614714076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -540156.1423184416,
+          -1040434.8992065269
+        ]
+      },
+      "properties": {
+        "id": 216,
+        "dataset_size": 500,
+        "x": -540156.1423184416,
+        "y": -1040434.8992065269
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -543446.4908396141,
+          -1102371.8473432674
+        ]
+      },
+      "properties": {
+        "id": 217,
+        "dataset_size": 500,
+        "x": -543446.4908396141,
+        "y": -1102371.8473432674
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -547642.037705955,
+          -1044644.7379164352
+        ]
+      },
+      "properties": {
+        "id": 218,
+        "dataset_size": 500,
+        "x": -547642.037705955,
+        "y": -1044644.7379164352
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -512296.18938477617,
+          -1122337.8579798301
+        ]
+      },
+      "properties": {
+        "id": 219,
+        "dataset_size": 500,
+        "x": -512296.18938477617,
+        "y": -1122337.8579798301
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -562347.6566186983,
+          -1069897.4660254023
+        ]
+      },
+      "properties": {
+        "id": 220,
+        "dataset_size": 500,
+        "x": -562347.6566186983,
+        "y": -1069897.4660254023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -544635.0503637822,
+          -1100554.388548406
+        ]
+      },
+      "properties": {
+        "id": 221,
+        "dataset_size": 500,
+        "x": -544635.0503637822,
+        "y": -1100554.388548406
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -540804.2815549364,
+          -1044962.2598595772
+        ]
+      },
+      "properties": {
+        "id": 222,
+        "dataset_size": 500,
+        "x": -540804.2815549364,
+        "y": -1044962.2598595772
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -561082.7989217492,
+          -1138949.8479785547
+        ]
+      },
+      "properties": {
+        "id": 223,
+        "dataset_size": 500,
+        "x": -561082.7989217492,
+        "y": -1138949.8479785547
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -558030.4599377008,
+          -1119550.9324133086
+        ]
+      },
+      "properties": {
+        "id": 224,
+        "dataset_size": 500,
+        "x": -558030.4599377008,
+        "y": -1119550.9324133086
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -515181.8391858955,
+          -1132511.901404249
+        ]
+      },
+      "properties": {
+        "id": 225,
+        "dataset_size": 500,
+        "x": -515181.8391858955,
+        "y": -1132511.901404249
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552059.227243645,
+          -1123777.1642265986
+        ]
+      },
+      "properties": {
+        "id": 226,
+        "dataset_size": 500,
+        "x": -552059.227243645,
+        "y": -1123777.1642265986
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -563164.4110326265,
+          -1110394.5082213809
+        ]
+      },
+      "properties": {
+        "id": 227,
+        "dataset_size": 500,
+        "x": -563164.4110326265,
+        "y": -1110394.5082213809
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552325.637652325,
+          -1151395.0107156711
+        ]
+      },
+      "properties": {
+        "id": 228,
+        "dataset_size": 500,
+        "x": -552325.637652325,
+        "y": -1151395.0107156711
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -565413.9810877249,
+          -1091965.1494309306
+        ]
+      },
+      "properties": {
+        "id": 229,
+        "dataset_size": 500,
+        "x": -565413.9810877249,
+        "y": -1091965.1494309306
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -511646.31189209275,
+          -1118660.505872632
+        ]
+      },
+      "properties": {
+        "id": 230,
+        "dataset_size": 500,
+        "x": -511646.31189209275,
+        "y": -1118660.505872632
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -567771.2120756576,
+          -1102596.5814592391
+        ]
+      },
+      "properties": {
+        "id": 231,
+        "dataset_size": 500,
+        "x": -567771.2120756576,
+        "y": -1102596.5814592391
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -533289.0804930427,
+          -1046240.4254990715
+        ]
+      },
+      "properties": {
+        "id": 232,
+        "dataset_size": 500,
+        "x": -533289.0804930427,
+        "y": -1046240.4254990715
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -546167.0414898578,
+          -1061334.2546521735
+        ]
+      },
+      "properties": {
+        "id": 233,
+        "dataset_size": 500,
+        "x": -546167.0414898578,
+        "y": -1061334.2546521735
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -543391.5387651774,
+          -1131153.8949341069
+        ]
+      },
+      "properties": {
+        "id": 234,
+        "dataset_size": 500,
+        "x": -543391.5387651774,
+        "y": -1131153.8949341069
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -544475.6554593636,
+          -1118916.0062997453
+        ]
+      },
+      "properties": {
+        "id": 235,
+        "dataset_size": 500,
+        "x": -544475.6554593636,
+        "y": -1118916.0062997453
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552688.2852555295,
+          -1123420.9436109161
+        ]
+      },
+      "properties": {
+        "id": 236,
+        "dataset_size": 500,
+        "x": -552688.2852555295,
+        "y": -1123420.9436109161
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -546422.7312223922,
+          -1096688.527228439
+        ]
+      },
+      "properties": {
+        "id": 237,
+        "dataset_size": 500,
+        "x": -546422.7312223922,
+        "y": -1096688.527228439
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -559212.7237078537,
+          -1070160.5425551063
+        ]
+      },
+      "properties": {
+        "id": 238,
+        "dataset_size": 500,
+        "x": -559212.7237078537,
+        "y": -1070160.5425551063
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -561831.7317581015,
+          -1117675.9262211954
+        ]
+      },
+      "properties": {
+        "id": 239,
+        "dataset_size": 500,
+        "x": -561831.7317581015,
+        "y": -1117675.9262211954
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -566019.8642696515,
+          -1068669.613564844
+        ]
+      },
+      "properties": {
+        "id": 240,
+        "dataset_size": 500,
+        "x": -566019.8642696515,
+        "y": -1068669.613564844
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -575955.1719140381,
+          -1087154.70953148
+        ]
+      },
+      "properties": {
+        "id": 241,
+        "dataset_size": 500,
+        "x": -575955.1719140381,
+        "y": -1087154.70953148
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -573640.2579023634,
+          -1078416.404689306
+        ]
+      },
+      "properties": {
+        "id": 242,
+        "dataset_size": 500,
+        "x": -573640.2579023634,
+        "y": -1078416.404689306
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -562867.4092431657,
+          -1115186.6220020782
+        ]
+      },
+      "properties": {
+        "id": 243,
+        "dataset_size": 500,
+        "x": -562867.4092431657,
+        "y": -1115186.6220020782
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -555200.9756324934,
+          -1110434.1549747745
+        ]
+      },
+      "properties": {
+        "id": 244,
+        "dataset_size": 500,
+        "x": -555200.9756324934,
+        "y": -1110434.1549747745
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -562561.1070991033,
+          -1134685.8361208728
+        ]
+      },
+      "properties": {
+        "id": 245,
+        "dataset_size": 500,
+        "x": -562561.1070991033,
+        "y": -1134685.8361208728
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -541195.3357703077,
+          -1120612.7529447237
+        ]
+      },
+      "properties": {
+        "id": 246,
+        "dataset_size": 500,
+        "x": -541195.3357703077,
+        "y": -1120612.7529447237
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -511837.7446111006,
+          -1127926.582983721
+        ]
+      },
+      "properties": {
+        "id": 247,
+        "dataset_size": 500,
+        "x": -511837.7446111006,
+        "y": -1127926.582983721
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -555108.7734515645,
+          -1149259.4837239403
+        ]
+      },
+      "properties": {
+        "id": 248,
+        "dataset_size": 500,
+        "x": -555108.7734515645,
+        "y": -1149259.4837239403
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -549482.2205702484,
+          -1145670.178224848
+        ]
+      },
+      "properties": {
+        "id": 249,
+        "dataset_size": 500,
+        "x": -549482.2205702484,
+        "y": -1145670.178224848
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -539223.6489435514,
+          -1052067.8479524965
+        ]
+      },
+      "properties": {
+        "id": 250,
+        "dataset_size": 500,
+        "x": -539223.6489435514,
+        "y": -1052067.8479524965
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -549145.3524553387,
+          -1042881.5542326245
+        ]
+      },
+      "properties": {
+        "id": 251,
+        "dataset_size": 500,
+        "x": -549145.3524553387,
+        "y": -1042881.5542326245
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552329.192308455,
+          -1108408.1620480549
+        ]
+      },
+      "properties": {
+        "id": 252,
+        "dataset_size": 500,
+        "x": -552329.192308455,
+        "y": -1108408.1620480549
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -553074.6702677463,
+          -1103921.078861409
+        ]
+      },
+      "properties": {
+        "id": 253,
+        "dataset_size": 500,
+        "x": -553074.6702677463,
+        "y": -1103921.078861409
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -579935.6244114175,
+          -1134221.6647317435
+        ]
+      },
+      "properties": {
+        "id": 254,
+        "dataset_size": 500,
+        "x": -579935.6244114175,
+        "y": -1134221.6647317435
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -543255.1293280163,
+          -1041472.1454481278
+        ]
+      },
+      "properties": {
+        "id": 255,
+        "dataset_size": 500,
+        "x": -543255.1293280163,
+        "y": -1041472.1454481278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -575665.7673872504,
+          -1114713.817573704
+        ]
+      },
+      "properties": {
+        "id": 256,
+        "dataset_size": 500,
+        "x": -575665.7673872504,
+        "y": -1114713.817573704
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -560970.0696635805,
+          -1129653.4258262047
+        ]
+      },
+      "properties": {
+        "id": 257,
+        "dataset_size": 500,
+        "x": -560970.0696635805,
+        "y": -1129653.4258262047
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -578281.0272822267,
+          -1084436.3860240798
+        ]
+      },
+      "properties": {
+        "id": 258,
+        "dataset_size": 500,
+        "x": -578281.0272822267,
+        "y": -1084436.3860240798
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -541727.4683523534,
+          -1108208.6413270275
+        ]
+      },
+      "properties": {
+        "id": 259,
+        "dataset_size": 500,
+        "x": -541727.4683523534,
+        "y": -1108208.6413270275
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -559668.5195591497,
+          -1060077.686118912
+        ]
+      },
+      "properties": {
+        "id": 260,
+        "dataset_size": 500,
+        "x": -559668.5195591497,
+        "y": -1060077.686118912
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -513948.9205776707,
+          -1134607.5776195084
+        ]
+      },
+      "properties": {
+        "id": 261,
+        "dataset_size": 500,
+        "x": -513948.9205776707,
+        "y": -1134607.5776195084
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -505622.07450887776,
+          -1124296.313757155
+        ]
+      },
+      "properties": {
+        "id": 262,
+        "dataset_size": 500,
+        "x": -505622.07450887776,
+        "y": -1124296.313757155
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -553503.8783550829,
+          -1084631.4473729855
+        ]
+      },
+      "properties": {
+        "id": 263,
+        "dataset_size": 500,
+        "x": -553503.8783550829,
+        "y": -1084631.4473729855
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -562724.1052370475,
+          -1130735.5879646253
+        ]
+      },
+      "properties": {
+        "id": 264,
+        "dataset_size": 500,
+        "x": -562724.1052370475,
+        "y": -1130735.5879646253
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -519426.8411042251,
+          -1136990.2713201377
+        ]
+      },
+      "properties": {
+        "id": 265,
+        "dataset_size": 500,
+        "x": -519426.8411042251,
+        "y": -1136990.2713201377
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -575486.1797915089,
+          -1087835.9875474926
+        ]
+      },
+      "properties": {
+        "id": 266,
+        "dataset_size": 500,
+        "x": -575486.1797915089,
+        "y": -1087835.9875474926
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -548928.0959224484,
+          -1077051.4047927777
+        ]
+      },
+      "properties": {
+        "id": 267,
+        "dataset_size": 500,
+        "x": -548928.0959224484,
+        "y": -1077051.4047927777
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -541351.2576479227,
+          -1037699.6829900548
+        ]
+      },
+      "properties": {
+        "id": 268,
+        "dataset_size": 500,
+        "x": -541351.2576479227,
+        "y": -1037699.6829900548
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -571926.4733679526,
+          -1071122.981433423
+        ]
+      },
+      "properties": {
+        "id": 269,
+        "dataset_size": 500,
+        "x": -571926.4733679526,
+        "y": -1071122.981433423
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -571286.0855936748,
+          -1107508.9217810605
+        ]
+      },
+      "properties": {
+        "id": 270,
+        "dataset_size": 500,
+        "x": -571286.0855936748,
+        "y": -1107508.9217810605
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -565198.5080794434,
+          -1140379.5388243585
+        ]
+      },
+      "properties": {
+        "id": 271,
+        "dataset_size": 500,
+        "x": -565198.5080794434,
+        "y": -1140379.5388243585
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -543761.0217405241,
+          -1037239.8063450094
+        ]
+      },
+      "properties": {
+        "id": 272,
+        "dataset_size": 500,
+        "x": -543761.0217405241,
+        "y": -1037239.8063450094
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -548553.7497202755,
+          -1038549.9820141927
+        ]
+      },
+      "properties": {
+        "id": 273,
+        "dataset_size": 500,
+        "x": -548553.7497202755,
+        "y": -1038549.9820141927
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -559372.2285011207,
+          -1061843.3356633305
+        ]
+      },
+      "properties": {
+        "id": 274,
+        "dataset_size": 500,
+        "x": -559372.2285011207,
+        "y": -1061843.3356633305
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -578021.5618909969,
+          -1100013.456682719
+        ]
+      },
+      "properties": {
+        "id": 275,
+        "dataset_size": 500,
+        "x": -578021.5618909969,
+        "y": -1100013.456682719
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -520885.24691077153,
+          -1113736.0839405537
+        ]
+      },
+      "properties": {
+        "id": 276,
+        "dataset_size": 500,
+        "x": -520885.24691077153,
+        "y": -1113736.0839405537
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552962.8773761172,
+          -1030913.0297407443
+        ]
+      },
+      "properties": {
+        "id": 277,
+        "dataset_size": 500,
+        "x": -552962.8773761172,
+        "y": -1030913.0297407443
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -549923.9009203624,
+          -1047870.0188469642
+        ]
+      },
+      "properties": {
+        "id": 278,
+        "dataset_size": 500,
+        "x": -549923.9009203624,
+        "y": -1047870.0188469642
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -542962.187602841,
+          -1119967.645721659
+        ]
+      },
+      "properties": {
+        "id": 279,
+        "dataset_size": 500,
+        "x": -542962.187602841,
+        "y": -1119967.645721659
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -558633.543427093,
+          -1106571.6813540722
+        ]
+      },
+      "properties": {
+        "id": 280,
+        "dataset_size": 500,
+        "x": -558633.543427093,
+        "y": -1106571.6813540722
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -506226.8006395692,
+          -1127090.1439144139
+        ]
+      },
+      "properties": {
+        "id": 281,
+        "dataset_size": 500,
+        "x": -506226.8006395692,
+        "y": -1127090.1439144139
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -527139.2686441543,
+          -1100208.8470788607
+        ]
+      },
+      "properties": {
+        "id": 282,
+        "dataset_size": 500,
+        "x": -527139.2686441543,
+        "y": -1100208.8470788607
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -533478.2457851304,
+          -1120203.5404124071
+        ]
+      },
+      "properties": {
+        "id": 283,
+        "dataset_size": 500,
+        "x": -533478.2457851304,
+        "y": -1120203.5404124071
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -549924.8471624803,
+          -1146461.2730236126
+        ]
+      },
+      "properties": {
+        "id": 284,
+        "dataset_size": 500,
+        "x": -549924.8471624803,
+        "y": -1146461.2730236126
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -571832.7768110913,
+          -1091108.4954179763
+        ]
+      },
+      "properties": {
+        "id": 285,
+        "dataset_size": 500,
+        "x": -571832.7768110913,
+        "y": -1091108.4954179763
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -532454.0413961527,
+          -1139054.0055579983
+        ]
+      },
+      "properties": {
+        "id": 286,
+        "dataset_size": 500,
+        "x": -532454.0413961527,
+        "y": -1139054.0055579983
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -562802.0985929706,
+          -1053481.1423732704
+        ]
+      },
+      "properties": {
+        "id": 287,
+        "dataset_size": 500,
+        "x": -562802.0985929706,
+        "y": -1053481.1423732704
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -574605.7518167822,
+          -1118741.05737104
+        ]
+      },
+      "properties": {
+        "id": 288,
+        "dataset_size": 500,
+        "x": -574605.7518167822,
+        "y": -1118741.05737104
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -562209.5091318362,
+          -1125169.0329531447
+        ]
+      },
+      "properties": {
+        "id": 289,
+        "dataset_size": 500,
+        "x": -562209.5091318362,
+        "y": -1125169.0329531447
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -549806.4876241713,
+          -1069748.820781288
+        ]
+      },
+      "properties": {
+        "id": 290,
+        "dataset_size": 500,
+        "x": -549806.4876241713,
+        "y": -1069748.820781288
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -544876.7225750717,
+          -1059828.258423179
+        ]
+      },
+      "properties": {
+        "id": 291,
+        "dataset_size": 500,
+        "x": -544876.7225750717,
+        "y": -1059828.258423179
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -554312.5553044929,
+          -1065481.0485981342
+        ]
+      },
+      "properties": {
+        "id": 292,
+        "dataset_size": 500,
+        "x": -554312.5553044929,
+        "y": -1065481.0485981342
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -546630.8130520295,
+          -1134325.518824846
+        ]
+      },
+      "properties": {
+        "id": 293,
+        "dataset_size": 500,
+        "x": -546630.8130520295,
+        "y": -1134325.518824846
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552069.8219767549,
+          -1054732.9984377082
+        ]
+      },
+      "properties": {
+        "id": 294,
+        "dataset_size": 500,
+        "x": -552069.8219767549,
+        "y": -1054732.9984377082
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552367.6048341927,
+          -1051701.3109644651
+        ]
+      },
+      "properties": {
+        "id": 295,
+        "dataset_size": 500,
+        "x": -552367.6048341927,
+        "y": -1051701.3109644651
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -562109.484998229,
+          -1083007.3893684905
+        ]
+      },
+      "properties": {
+        "id": 296,
+        "dataset_size": 500,
+        "x": -562109.484998229,
+        "y": -1083007.3893684905
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -540694.3179867809,
+          -1130029.33383475
+        ]
+      },
+      "properties": {
+        "id": 297,
+        "dataset_size": 500,
+        "x": -540694.3179867809,
+        "y": -1130029.33383475
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -543915.6105783995,
+          -1148004.4514704996
+        ]
+      },
+      "properties": {
+        "id": 298,
+        "dataset_size": 500,
+        "x": -543915.6105783995,
+        "y": -1148004.4514704996
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -543741.1183033381,
+          -1048993.2663060839
+        ]
+      },
+      "properties": {
+        "id": 299,
+        "dataset_size": 500,
+        "x": -543741.1183033381,
+        "y": -1048993.2663060839
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -569793.4057504815,
+          -1068814.1414698109
+        ]
+      },
+      "properties": {
+        "id": 300,
+        "dataset_size": 500,
+        "x": -569793.4057504815,
+        "y": -1068814.1414698109
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -578876.5079941784,
+          -1083287.7716427671
+        ]
+      },
+      "properties": {
+        "id": 301,
+        "dataset_size": 500,
+        "x": -578876.5079941784,
+        "y": -1083287.7716427671
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -551011.5804525928,
+          -1072790.0228042677
+        ]
+      },
+      "properties": {
+        "id": 302,
+        "dataset_size": 500,
+        "x": -551011.5804525928,
+        "y": -1072790.0228042677
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -501503.0105948644,
+          -1134040.3380225175
+        ]
+      },
+      "properties": {
+        "id": 303,
+        "dataset_size": 500,
+        "x": -501503.0105948644,
+        "y": -1134040.3380225175
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -546914.4394891784,
+          -1122184.5045347558
+        ]
+      },
+      "properties": {
+        "id": 304,
+        "dataset_size": 500,
+        "x": -546914.4394891784,
+        "y": -1122184.5045347558
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -561321.3074388528,
+          -1138540.3082616953
+        ]
+      },
+      "properties": {
+        "id": 305,
+        "dataset_size": 500,
+        "x": -561321.3074388528,
+        "y": -1138540.3082616953
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -534838.9359103293,
+          -1122271.942539763
+        ]
+      },
+      "properties": {
+        "id": 306,
+        "dataset_size": 500,
+        "x": -534838.9359103293,
+        "y": -1122271.942539763
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -513274.50703584065,
+          -1136769.033973016
+        ]
+      },
+      "properties": {
+        "id": 307,
+        "dataset_size": 500,
+        "x": -513274.50703584065,
+        "y": -1136769.033973016
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -564432.6747828077,
+          -1091630.4347472978
+        ]
+      },
+      "properties": {
+        "id": 308,
+        "dataset_size": 500,
+        "x": -564432.6747828077,
+        "y": -1091630.4347472978
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -576794.3249677456,
+          -1132756.35156782
+        ]
+      },
+      "properties": {
+        "id": 309,
+        "dataset_size": 500,
+        "x": -576794.3249677456,
+        "y": -1132756.35156782
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -568635.7277696193,
+          -1093390.604625793
+        ]
+      },
+      "properties": {
+        "id": 310,
+        "dataset_size": 500,
+        "x": -568635.7277696193,
+        "y": -1093390.604625793
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -544276.977856222,
+          -1059645.3393309833
+        ]
+      },
+      "properties": {
+        "id": 311,
+        "dataset_size": 500,
+        "x": -544276.977856222,
+        "y": -1059645.3393309833
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -553604.9635424853,
+          -1138631.4097156955
+        ]
+      },
+      "properties": {
+        "id": 312,
+        "dataset_size": 500,
+        "x": -553604.9635424853,
+        "y": -1138631.4097156955
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -547141.2735890216,
+          -1044041.6795003595
+        ]
+      },
+      "properties": {
+        "id": 313,
+        "dataset_size": 500,
+        "x": -547141.2735890216,
+        "y": -1044041.6795003595
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -566020.8994195317,
+          -1060595.2107381907
+        ]
+      },
+      "properties": {
+        "id": 314,
+        "dataset_size": 500,
+        "x": -566020.8994195317,
+        "y": -1060595.2107381907
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -551690.2281565373,
+          -1122540.8341732104
+        ]
+      },
+      "properties": {
+        "id": 315,
+        "dataset_size": 500,
+        "x": -551690.2281565373,
+        "y": -1122540.8341732104
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -564406.5158612471,
+          -1136495.2646037524
+        ]
+      },
+      "properties": {
+        "id": 316,
+        "dataset_size": 500,
+        "x": -564406.5158612471,
+        "y": -1136495.2646037524
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -529988.9092100519,
+          -1112876.9023328328
+        ]
+      },
+      "properties": {
+        "id": 317,
+        "dataset_size": 500,
+        "x": -529988.9092100519,
+        "y": -1112876.9023328328
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -522088.79354655754,
+          -1132515.7934634355
+        ]
+      },
+      "properties": {
+        "id": 318,
+        "dataset_size": 500,
+        "x": -522088.79354655754,
+        "y": -1132515.7934634355
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -544087.1166552767,
+          -1144929.537922419
+        ]
+      },
+      "properties": {
+        "id": 319,
+        "dataset_size": 500,
+        "x": -544087.1166552767,
+        "y": -1144929.537922419
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -568307.7361495565,
+          -1089746.191160139
+        ]
+      },
+      "properties": {
+        "id": 320,
+        "dataset_size": 500,
+        "x": -568307.7361495565,
+        "y": -1089746.191160139
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -543336.0777664159,
+          -1140271.152775451
+        ]
+      },
+      "properties": {
+        "id": 321,
+        "dataset_size": 500,
+        "x": -543336.0777664159,
+        "y": -1140271.152775451
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -548565.6750994099,
+          -1111269.1982679407
+        ]
+      },
+      "properties": {
+        "id": 322,
+        "dataset_size": 500,
+        "x": -548565.6750994099,
+        "y": -1111269.1982679407
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -553064.0128034728,
+          -1078344.3132401984
+        ]
+      },
+      "properties": {
+        "id": 323,
+        "dataset_size": 500,
+        "x": -553064.0128034728,
+        "y": -1078344.3132401984
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -526515.5986108553,
+          -1114123.708032985
+        ]
+      },
+      "properties": {
+        "id": 324,
+        "dataset_size": 500,
+        "x": -526515.5986108553,
+        "y": -1114123.708032985
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -532216.945296485,
+          -1112627.6326430175
+        ]
+      },
+      "properties": {
+        "id": 325,
+        "dataset_size": 500,
+        "x": -532216.945296485,
+        "y": -1112627.6326430175
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -542956.9662992989,
+          -1102650.7293720634
+        ]
+      },
+      "properties": {
+        "id": 326,
+        "dataset_size": 500,
+        "x": -542956.9662992989,
+        "y": -1102650.7293720634
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -570655.8171588765,
+          -1116544.1420888589
+        ]
+      },
+      "properties": {
+        "id": 327,
+        "dataset_size": 500,
+        "x": -570655.8171588765,
+        "y": -1116544.1420888589
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -560237.3609817632,
+          -1090098.3899459245
+        ]
+      },
+      "properties": {
+        "id": 328,
+        "dataset_size": 500,
+        "x": -560237.3609817632,
+        "y": -1090098.3899459245
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -551053.564996336,
+          -1084020.9706462016
+        ]
+      },
+      "properties": {
+        "id": 329,
+        "dataset_size": 500,
+        "x": -551053.564996336,
+        "y": -1084020.9706462016
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -533790.0766945062,
+          -1107047.0964601415
+        ]
+      },
+      "properties": {
+        "id": 330,
+        "dataset_size": 500,
+        "x": -533790.0766945062,
+        "y": -1107047.0964601415
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -578940.3664777081,
+          -1085393.0582674642
+        ]
+      },
+      "properties": {
+        "id": 331,
+        "dataset_size": 500,
+        "x": -578940.3664777081,
+        "y": -1085393.0582674642
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -531938.2323108666,
+          -1106635.121396633
+        ]
+      },
+      "properties": {
+        "id": 332,
+        "dataset_size": 500,
+        "x": -531938.2323108666,
+        "y": -1106635.121396633
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -560634.3468926954,
+          -1120195.8291754222
+        ]
+      },
+      "properties": {
+        "id": 333,
+        "dataset_size": 500,
+        "x": -560634.3468926954,
+        "y": -1120195.8291754222
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -564447.9060175653,
+          -1053205.256031502
+        ]
+      },
+      "properties": {
+        "id": 334,
+        "dataset_size": 500,
+        "x": -564447.9060175653,
+        "y": -1053205.256031502
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -550747.3548357924,
+          -1075639.2933962634
+        ]
+      },
+      "properties": {
+        "id": 335,
+        "dataset_size": 500,
+        "x": -550747.3548357924,
+        "y": -1075639.2933962634
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -571225.3914529033,
+          -1081705.7840515997
+        ]
+      },
+      "properties": {
+        "id": 336,
+        "dataset_size": 500,
+        "x": -571225.3914529033,
+        "y": -1081705.7840515997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -524139.1196884009,
+          -1123812.3091635832
+        ]
+      },
+      "properties": {
+        "id": 337,
+        "dataset_size": 500,
+        "x": -524139.1196884009,
+        "y": -1123812.3091635832
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -555894.3022007092,
+          -1096193.4720224566
+        ]
+      },
+      "properties": {
+        "id": 338,
+        "dataset_size": 500,
+        "x": -555894.3022007092,
+        "y": -1096193.4720224566
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -553187.602621955,
+          -1092189.501163679
+        ]
+      },
+      "properties": {
+        "id": 339,
+        "dataset_size": 500,
+        "x": -553187.602621955,
+        "y": -1092189.501163679
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -548825.7971984827,
+          -1036761.7852399303
+        ]
+      },
+      "properties": {
+        "id": 340,
+        "dataset_size": 500,
+        "x": -548825.7971984827,
+        "y": -1036761.7852399303
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -529447.3877424512,
+          -1053297.1580978
+        ]
+      },
+      "properties": {
+        "id": 341,
+        "dataset_size": 500,
+        "x": -529447.3877424512,
+        "y": -1053297.1580978
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -548531.9203591252,
+          -1035393.9613042773
+        ]
+      },
+      "properties": {
+        "id": 342,
+        "dataset_size": 500,
+        "x": -548531.9203591252,
+        "y": -1035393.9613042773
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -556090.4036344306,
+          -1154054.3129093067
+        ]
+      },
+      "properties": {
+        "id": 343,
+        "dataset_size": 500,
+        "x": -556090.4036344306,
+        "y": -1154054.3129093067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -524739.6911605062,
+          -1145581.7741038806
+        ]
+      },
+      "properties": {
+        "id": 344,
+        "dataset_size": 500,
+        "x": -524739.6911605062,
+        "y": -1145581.7741038806
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -565670.7871097344,
+          -1056930.8554659674
+        ]
+      },
+      "properties": {
+        "id": 345,
+        "dataset_size": 500,
+        "x": -565670.7871097344,
+        "y": -1056930.8554659674
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -560708.4122681357,
+          -1054313.0248263183
+        ]
+      },
+      "properties": {
+        "id": 346,
+        "dataset_size": 500,
+        "x": -560708.4122681357,
+        "y": -1054313.0248263183
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -539433.6128343573,
+          -1111328.1547812019
+        ]
+      },
+      "properties": {
+        "id": 347,
+        "dataset_size": 500,
+        "x": -539433.6128343573,
+        "y": -1111328.1547812019
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -571263.1241925587,
+          -1112389.3291424504
+        ]
+      },
+      "properties": {
+        "id": 348,
+        "dataset_size": 500,
+        "x": -571263.1241925587,
+        "y": -1112389.3291424504
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -536007.7902031224,
+          -1132733.4098327113
+        ]
+      },
+      "properties": {
+        "id": 349,
+        "dataset_size": 500,
+        "x": -536007.7902031224,
+        "y": -1132733.4098327113
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -515148.7174109493,
+          -1119497.6323044817
+        ]
+      },
+      "properties": {
+        "id": 350,
+        "dataset_size": 500,
+        "x": -515148.7174109493,
+        "y": -1119497.6323044817
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -564677.8915145624,
+          -1084424.8266462379
+        ]
+      },
+      "properties": {
+        "id": 351,
+        "dataset_size": 500,
+        "x": -564677.8915145624,
+        "y": -1084424.8266462379
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -539517.3595651494,
+          -1093855.3566904042
+        ]
+      },
+      "properties": {
+        "id": 352,
+        "dataset_size": 500,
+        "x": -539517.3595651494,
+        "y": -1093855.3566904042
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -558432.7970925018,
+          -1112194.778480271
+        ]
+      },
+      "properties": {
+        "id": 353,
+        "dataset_size": 500,
+        "x": -558432.7970925018,
+        "y": -1112194.778480271
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -541370.8900112874,
+          -1045948.8875610733
+        ]
+      },
+      "properties": {
+        "id": 354,
+        "dataset_size": 500,
+        "x": -541370.8900112874,
+        "y": -1045948.8875610733
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -528819.0439604657,
+          -1121140.5928115863
+        ]
+      },
+      "properties": {
+        "id": 355,
+        "dataset_size": 500,
+        "x": -528819.0439604657,
+        "y": -1121140.5928115863
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -569908.4630448482,
+          -1102765.2801000916
+        ]
+      },
+      "properties": {
+        "id": 356,
+        "dataset_size": 500,
+        "x": -569908.4630448482,
+        "y": -1102765.2801000916
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -573960.6026063975,
+          -1086436.5265373546
+        ]
+      },
+      "properties": {
+        "id": 357,
+        "dataset_size": 500,
+        "x": -573960.6026063975,
+        "y": -1086436.5265373546
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -565224.6482147779,
+          -1137196.8775883678
+        ]
+      },
+      "properties": {
+        "id": 358,
+        "dataset_size": 500,
+        "x": -565224.6482147779,
+        "y": -1137196.8775883678
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -570083.6656390601,
+          -1116738.4128594587
+        ]
+      },
+      "properties": {
+        "id": 359,
+        "dataset_size": 500,
+        "x": -570083.6656390601,
+        "y": -1116738.4128594587
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -571390.0230587856,
+          -1105184.052007624
+        ]
+      },
+      "properties": {
+        "id": 360,
+        "dataset_size": 500,
+        "x": -571390.0230587856,
+        "y": -1105184.052007624
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -576333.4469340025,
+          -1135878.5046827733
+        ]
+      },
+      "properties": {
+        "id": 361,
+        "dataset_size": 500,
+        "x": -576333.4469340025,
+        "y": -1135878.5046827733
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -523832.43083132815,
+          -1138939.8699180572
+        ]
+      },
+      "properties": {
+        "id": 362,
+        "dataset_size": 500,
+        "x": -523832.43083132815,
+        "y": -1138939.8699180572
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -556129.7702144209,
+          -1085460.4978177948
+        ]
+      },
+      "properties": {
+        "id": 363,
+        "dataset_size": 500,
+        "x": -556129.7702144209,
+        "y": -1085460.4978177948
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -567591.4013617284,
+          -1129509.721013136
+        ]
+      },
+      "properties": {
+        "id": 364,
+        "dataset_size": 500,
+        "x": -567591.4013617284,
+        "y": -1129509.721013136
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -567250.6089934248,
+          -1097665.60260322
+        ]
+      },
+      "properties": {
+        "id": 365,
+        "dataset_size": 500,
+        "x": -567250.6089934248,
+        "y": -1097665.60260322
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -531459.4821878336,
+          -1046728.6274556045
+        ]
+      },
+      "properties": {
+        "id": 366,
+        "dataset_size": 500,
+        "x": -531459.4821878336,
+        "y": -1046728.6274556045
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -558666.4771152965,
+          -1095543.0175966935
+        ]
+      },
+      "properties": {
+        "id": 367,
+        "dataset_size": 500,
+        "x": -558666.4771152965,
+        "y": -1095543.0175966935
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -550044.958716432,
+          -1070448.6321282254
+        ]
+      },
+      "properties": {
+        "id": 368,
+        "dataset_size": 500,
+        "x": -550044.958716432,
+        "y": -1070448.6321282254
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -545733.228813252,
+          -1096138.1310033528
+        ]
+      },
+      "properties": {
+        "id": 369,
+        "dataset_size": 500,
+        "x": -545733.228813252,
+        "y": -1096138.1310033528
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -563738.82984404,
+          -1119507.0702971313
+        ]
+      },
+      "properties": {
+        "id": 370,
+        "dataset_size": 500,
+        "x": -563738.82984404,
+        "y": -1119507.0702971313
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -528789.2007258009,
+          -1104073.6423179556
+        ]
+      },
+      "properties": {
+        "id": 371,
+        "dataset_size": 500,
+        "x": -528789.2007258009,
+        "y": -1104073.6423179556
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -531521.5358740328,
+          -1137470.366304183
+        ]
+      },
+      "properties": {
+        "id": 372,
+        "dataset_size": 500,
+        "x": -531521.5358740328,
+        "y": -1137470.366304183
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -568483.6564046344,
+          -1128784.406977976
+        ]
+      },
+      "properties": {
+        "id": 373,
+        "dataset_size": 500,
+        "x": -568483.6564046344,
+        "y": -1128784.406977976
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -549903.4177749853,
+          -1099979.83652768
+        ]
+      },
+      "properties": {
+        "id": 374,
+        "dataset_size": 500,
+        "x": -549903.4177749853,
+        "y": -1099979.83652768
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -530591.0476275684,
+          -1097286.9535813176
+        ]
+      },
+      "properties": {
+        "id": 375,
+        "dataset_size": 500,
+        "x": -530591.0476275684,
+        "y": -1097286.9535813176
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552924.2162759478,
+          -1041580.585202897
+        ]
+      },
+      "properties": {
+        "id": 376,
+        "dataset_size": 500,
+        "x": -552924.2162759478,
+        "y": -1041580.585202897
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -560274.8531405893,
+          -1120628.6964747342
+        ]
+      },
+      "properties": {
+        "id": 377,
+        "dataset_size": 500,
+        "x": -560274.8531405893,
+        "y": -1120628.6964747342
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -544212.4088897179,
+          -1108739.4416702685
+        ]
+      },
+      "properties": {
+        "id": 378,
+        "dataset_size": 500,
+        "x": -544212.4088897179,
+        "y": -1108739.4416702685
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -566087.9121676096,
+          -1121722.7851230316
+        ]
+      },
+      "properties": {
+        "id": 379,
+        "dataset_size": 500,
+        "x": -566087.9121676096,
+        "y": -1121722.7851230316
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -567609.5029902556,
+          -1100085.7878822659
+        ]
+      },
+      "properties": {
+        "id": 380,
+        "dataset_size": 500,
+        "x": -567609.5029902556,
+        "y": -1100085.7878822659
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -544011.2224090737,
+          -1118934.2471133831
+        ]
+      },
+      "properties": {
+        "id": 381,
+        "dataset_size": 500,
+        "x": -544011.2224090737,
+        "y": -1118934.2471133831
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -517603.34668600874,
+          -1110928.6701684983
+        ]
+      },
+      "properties": {
+        "id": 382,
+        "dataset_size": 500,
+        "x": -517603.34668600874,
+        "y": -1110928.6701684983
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -566202.5141555286,
+          -1128422.5787785314
+        ]
+      },
+      "properties": {
+        "id": 383,
+        "dataset_size": 500,
+        "x": -566202.5141555286,
+        "y": -1128422.5787785314
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -555929.6917222681,
+          -1125141.1869032534
+        ]
+      },
+      "properties": {
+        "id": 384,
+        "dataset_size": 500,
+        "x": -555929.6917222681,
+        "y": -1125141.1869032534
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -513640.6565321417,
+          -1138561.1858555991
+        ]
+      },
+      "properties": {
+        "id": 385,
+        "dataset_size": 500,
+        "x": -513640.6565321417,
+        "y": -1138561.1858555991
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -555181.5110130364,
+          -1083680.3280692522
+        ]
+      },
+      "properties": {
+        "id": 386,
+        "dataset_size": 500,
+        "x": -555181.5110130364,
+        "y": -1083680.3280692522
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -511155.18755383,
+          -1115777.967533717
+        ]
+      },
+      "properties": {
+        "id": 387,
+        "dataset_size": 500,
+        "x": -511155.18755383,
+        "y": -1115777.967533717
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -548459.0168202143,
+          -1059912.226430859
+        ]
+      },
+      "properties": {
+        "id": 388,
+        "dataset_size": 500,
+        "x": -548459.0168202143,
+        "y": -1059912.226430859
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -573720.8305826839,
+          -1122963.9226186047
+        ]
+      },
+      "properties": {
+        "id": 389,
+        "dataset_size": 500,
+        "x": -573720.8305826839,
+        "y": -1122963.9226186047
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -537916.4567477198,
+          -1099131.65749898
+        ]
+      },
+      "properties": {
+        "id": 390,
+        "dataset_size": 500,
+        "x": -537916.4567477198,
+        "y": -1099131.65749898
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -554111.3361437098,
+          -1149513.1455954788
+        ]
+      },
+      "properties": {
+        "id": 391,
+        "dataset_size": 500,
+        "x": -554111.3361437098,
+        "y": -1149513.1455954788
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -536847.4659306097,
+          -1127082.2176925738
+        ]
+      },
+      "properties": {
+        "id": 392,
+        "dataset_size": 500,
+        "x": -536847.4659306097,
+        "y": -1127082.2176925738
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -555755.0204142048,
+          -1053991.9667578621
+        ]
+      },
+      "properties": {
+        "id": 393,
+        "dataset_size": 500,
+        "x": -555755.0204142048,
+        "y": -1053991.9667578621
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -537935.1933155644,
+          -1129743.0689110258
+        ]
+      },
+      "properties": {
+        "id": 394,
+        "dataset_size": 500,
+        "x": -537935.1933155644,
+        "y": -1129743.0689110258
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -535150.138900244,
+          -1112770.3237338532
+        ]
+      },
+      "properties": {
+        "id": 395,
+        "dataset_size": 500,
+        "x": -535150.138900244,
+        "y": -1112770.3237338532
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -562075.7268727522,
+          -1074427.4604720052
+        ]
+      },
+      "properties": {
+        "id": 396,
+        "dataset_size": 500,
+        "x": -562075.7268727522,
+        "y": -1074427.4604720052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -572522.857496851,
+          -1107453.1317757326
+        ]
+      },
+      "properties": {
+        "id": 397,
+        "dataset_size": 500,
+        "x": -572522.857496851,
+        "y": -1107453.1317757326
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -533172.2107577199,
+          -1049490.7705082968
+        ]
+      },
+      "properties": {
+        "id": 398,
+        "dataset_size": 500,
+        "x": -533172.2107577199,
+        "y": -1049490.7705082968
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -508860.02148110117,
+          -1130886.206875342
+        ]
+      },
+      "properties": {
+        "id": 399,
+        "dataset_size": 500,
+        "x": -508860.02148110117,
+        "y": -1130886.206875342
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552452.6587679539,
+          -1129598.0267399533
+        ]
+      },
+      "properties": {
+        "id": 400,
+        "dataset_size": 500,
+        "x": -552452.6587679539,
+        "y": -1129598.0267399533
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -539620.8803273797,
+          -1141692.0395206045
+        ]
+      },
+      "properties": {
+        "id": 401,
+        "dataset_size": 500,
+        "x": -539620.8803273797,
+        "y": -1141692.0395206045
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -572041.7814581597,
+          -1114588.4199244953
+        ]
+      },
+      "properties": {
+        "id": 402,
+        "dataset_size": 500,
+        "x": -572041.7814581597,
+        "y": -1114588.4199244953
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -561048.3149829153,
+          -1087602.2759174274
+        ]
+      },
+      "properties": {
+        "id": 403,
+        "dataset_size": 500,
+        "x": -561048.3149829153,
+        "y": -1087602.2759174274
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -538965.5201198302,
+          -1116044.9509353414
+        ]
+      },
+      "properties": {
+        "id": 404,
+        "dataset_size": 500,
+        "x": -538965.5201198302,
+        "y": -1116044.9509353414
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -571747.6489991281,
+          -1093916.426637358
+        ]
+      },
+      "properties": {
+        "id": 405,
+        "dataset_size": 500,
+        "x": -571747.6489991281,
+        "y": -1093916.426637358
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -517810.60824875365,
+          -1124442.3974097911
+        ]
+      },
+      "properties": {
+        "id": 406,
+        "dataset_size": 500,
+        "x": -517810.60824875365,
+        "y": -1124442.3974097911
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -508756.4261197911,
+          -1126060.7771084816
+        ]
+      },
+      "properties": {
+        "id": 407,
+        "dataset_size": 500,
+        "x": -508756.4261197911,
+        "y": -1126060.7771084816
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -572554.4520496092,
+          -1126406.0301608199
+        ]
+      },
+      "properties": {
+        "id": 408,
+        "dataset_size": 500,
+        "x": -572554.4520496092,
+        "y": -1126406.0301608199
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -547830.7404518562,
+          -1115774.2686271956
+        ]
+      },
+      "properties": {
+        "id": 409,
+        "dataset_size": 500,
+        "x": -547830.7404518562,
+        "y": -1115774.2686271956
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -558481.5149357297,
+          -1071981.8312594767
+        ]
+      },
+      "properties": {
+        "id": 410,
+        "dataset_size": 500,
+        "x": -558481.5149357297,
+        "y": -1071981.8312594767
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -542433.8245877629,
+          -1097434.9398629782
+        ]
+      },
+      "properties": {
+        "id": 411,
+        "dataset_size": 500,
+        "x": -542433.8245877629,
+        "y": -1097434.9398629782
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -553149.826315673,
+          -1082927.2108861608
+        ]
+      },
+      "properties": {
+        "id": 412,
+        "dataset_size": 500,
+        "x": -553149.826315673,
+        "y": -1082927.2108861608
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -562119.2950296797,
+          -1107115.6199165953
+        ]
+      },
+      "properties": {
+        "id": 413,
+        "dataset_size": 500,
+        "x": -562119.2950296797,
+        "y": -1107115.6199165953
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -570446.2208418989,
+          -1068848.8302809005
+        ]
+      },
+      "properties": {
+        "id": 414,
+        "dataset_size": 500,
+        "x": -570446.2208418989,
+        "y": -1068848.8302809005
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -533201.1813776693,
+          -1106810.263142557
+        ]
+      },
+      "properties": {
+        "id": 415,
+        "dataset_size": 500,
+        "x": -533201.1813776693,
+        "y": -1106810.263142557
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -506320.4705470531,
+          -1129862.6098005422
+        ]
+      },
+      "properties": {
+        "id": 416,
+        "dataset_size": 500,
+        "x": -506320.4705470531,
+        "y": -1129862.6098005422
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -547033.5029169163,
+          -1059552.322878107
+        ]
+      },
+      "properties": {
+        "id": 417,
+        "dataset_size": 500,
+        "x": -547033.5029169163,
+        "y": -1059552.322878107
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -556972.0023642621,
+          -1150772.1893132017
+        ]
+      },
+      "properties": {
+        "id": 418,
+        "dataset_size": 500,
+        "x": -556972.0023642621,
+        "y": -1150772.1893132017
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -553868.8362728858,
+          -1107306.8844173958
+        ]
+      },
+      "properties": {
+        "id": 419,
+        "dataset_size": 500,
+        "x": -553868.8362728858,
+        "y": -1107306.8844173958
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -520127.2942757333,
+          -1116949.3332657916
+        ]
+      },
+      "properties": {
+        "id": 420,
+        "dataset_size": 500,
+        "x": -520127.2942757333,
+        "y": -1116949.3332657916
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -568124.5999705042,
+          -1075976.8220387471
+        ]
+      },
+      "properties": {
+        "id": 421,
+        "dataset_size": 500,
+        "x": -568124.5999705042,
+        "y": -1075976.8220387471
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -570140.7886022782,
+          -1096029.7213564175
+        ]
+      },
+      "properties": {
+        "id": 422,
+        "dataset_size": 500,
+        "x": -570140.7886022782,
+        "y": -1096029.7213564175
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552046.0453590646,
+          -1066473.5227200557
+        ]
+      },
+      "properties": {
+        "id": 423,
+        "dataset_size": 500,
+        "x": -552046.0453590646,
+        "y": -1066473.5227200557
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -545099.0274303186,
+          -1128302.274547162
+        ]
+      },
+      "properties": {
+        "id": 424,
+        "dataset_size": 500,
+        "x": -545099.0274303186,
+        "y": -1128302.274547162
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -557024.8313872978,
+          -1115001.6197888923
+        ]
+      },
+      "properties": {
+        "id": 425,
+        "dataset_size": 500,
+        "x": -557024.8313872978,
+        "y": -1115001.6197888923
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -539212.458585786,
+          -1137238.748787191
+        ]
+      },
+      "properties": {
+        "id": 426,
+        "dataset_size": 500,
+        "x": -539212.458585786,
+        "y": -1137238.748787191
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -554119.215938558,
+          -1094719.2689324853
+        ]
+      },
+      "properties": {
+        "id": 427,
+        "dataset_size": 500,
+        "x": -554119.215938558,
+        "y": -1094719.2689324853
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -549082.327991304,
+          -1129972.4929388782
+        ]
+      },
+      "properties": {
+        "id": 428,
+        "dataset_size": 500,
+        "x": -549082.327991304,
+        "y": -1129972.4929388782
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -550707.3765959556,
+          -1118443.4373953585
+        ]
+      },
+      "properties": {
+        "id": 429,
+        "dataset_size": 500,
+        "x": -550707.3765959556,
+        "y": -1118443.4373953585
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -540414.6491716319,
+          -1048945.6066963673
+        ]
+      },
+      "properties": {
+        "id": 430,
+        "dataset_size": 500,
+        "x": -540414.6491716319,
+        "y": -1048945.6066963673
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -547284.6401530486,
+          -1034376.7250651254
+        ]
+      },
+      "properties": {
+        "id": 431,
+        "dataset_size": 500,
+        "x": -547284.6401530486,
+        "y": -1034376.7250651254
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -567803.3777223977,
+          -1125877.2265059648
+        ]
+      },
+      "properties": {
+        "id": 432,
+        "dataset_size": 500,
+        "x": -567803.3777223977,
+        "y": -1125877.2265059648
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -579352.5947752077,
+          -1133955.0211988513
+        ]
+      },
+      "properties": {
+        "id": 433,
+        "dataset_size": 500,
+        "x": -579352.5947752077,
+        "y": -1133955.0211988513
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -532490.3890883231,
+          -1127752.6698016785
+        ]
+      },
+      "properties": {
+        "id": 434,
+        "dataset_size": 500,
+        "x": -532490.3890883231,
+        "y": -1127752.6698016785
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -548269.1759832883,
+          -1056778.8608713308
+        ]
+      },
+      "properties": {
+        "id": 435,
+        "dataset_size": 500,
+        "x": -548269.1759832883,
+        "y": -1056778.8608713308
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -567260.1719253538,
+          -1054479.590621477
+        ]
+      },
+      "properties": {
+        "id": 436,
+        "dataset_size": 500,
+        "x": -567260.1719253538,
+        "y": -1054479.590621477
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -560636.2336021703,
+          -1076592.8837267044
+        ]
+      },
+      "properties": {
+        "id": 437,
+        "dataset_size": 500,
+        "x": -560636.2336021703,
+        "y": -1076592.8837267044
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -516186.0866684427,
+          -1123272.436877698
+        ]
+      },
+      "properties": {
+        "id": 438,
+        "dataset_size": 500,
+        "x": -516186.0866684427,
+        "y": -1123272.436877698
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -553558.8643774389,
+          -1052776.5207387845
+        ]
+      },
+      "properties": {
+        "id": 439,
+        "dataset_size": 500,
+        "x": -553558.8643774389,
+        "y": -1052776.5207387845
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -576045.9681472236,
+          -1120751.2067924384
+        ]
+      },
+      "properties": {
+        "id": 440,
+        "dataset_size": 500,
+        "x": -576045.9681472236,
+        "y": -1120751.2067924384
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -580619.6010847947,
+          -1089567.9596061322
+        ]
+      },
+      "properties": {
+        "id": 441,
+        "dataset_size": 500,
+        "x": -580619.6010847947,
+        "y": -1089567.9596061322
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -568460.7369706782,
+          -1069896.0246273181
+        ]
+      },
+      "properties": {
+        "id": 442,
+        "dataset_size": 500,
+        "x": -568460.7369706782,
+        "y": -1069896.0246273181
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -573592.0058406235,
+          -1072565.3965859285
+        ]
+      },
+      "properties": {
+        "id": 443,
+        "dataset_size": 500,
+        "x": -573592.0058406235,
+        "y": -1072565.3965859285
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -570535.3813124215,
+          -1115435.6058760614
+        ]
+      },
+      "properties": {
+        "id": 444,
+        "dataset_size": 500,
+        "x": -570535.3813124215,
+        "y": -1115435.6058760614
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -572139.8213591607,
+          -1071242.0594801824
+        ]
+      },
+      "properties": {
+        "id": 445,
+        "dataset_size": 500,
+        "x": -572139.8213591607,
+        "y": -1071242.0594801824
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -513975.11133796663,
+          -1124186.9517353168
+        ]
+      },
+      "properties": {
+        "id": 446,
+        "dataset_size": 500,
+        "x": -513975.11133796663,
+        "y": -1124186.9517353168
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -548908.1605490595,
+          -1066730.7053125768
+        ]
+      },
+      "properties": {
+        "id": 447,
+        "dataset_size": 500,
+        "x": -548908.1605490595,
+        "y": -1066730.7053125768
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -551647.029378461,
+          -1071448.79219359
+        ]
+      },
+      "properties": {
+        "id": 448,
+        "dataset_size": 500,
+        "x": -551647.029378461,
+        "y": -1071448.79219359
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -545158.0958114576,
+          -1060707.8418794896
+        ]
+      },
+      "properties": {
+        "id": 449,
+        "dataset_size": 500,
+        "x": -545158.0958114576,
+        "y": -1060707.8418794896
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -527353.20392483,
+          -1136570.935423976
+        ]
+      },
+      "properties": {
+        "id": 450,
+        "dataset_size": 500,
+        "x": -527353.20392483,
+        "y": -1136570.935423976
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -543216.1752935332,
+          -1062193.9498947929
+        ]
+      },
+      "properties": {
+        "id": 451,
+        "dataset_size": 500,
+        "x": -543216.1752935332,
+        "y": -1062193.9498947929
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -541266.3098106054,
+          -1138982.8311386735
+        ]
+      },
+      "properties": {
+        "id": 452,
+        "dataset_size": 500,
+        "x": -541266.3098106054,
+        "y": -1138982.8311386735
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -550103.4008982489,
+          -1070174.038066626
+        ]
+      },
+      "properties": {
+        "id": 453,
+        "dataset_size": 500,
+        "x": -550103.4008982489,
+        "y": -1070174.038066626
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -556219.6275858151,
+          -1120649.5172746598
+        ]
+      },
+      "properties": {
+        "id": 454,
+        "dataset_size": 500,
+        "x": -556219.6275858151,
+        "y": -1120649.5172746598
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -513433.35947481386,
+          -1117604.7699849333
+        ]
+      },
+      "properties": {
+        "id": 455,
+        "dataset_size": 500,
+        "x": -513433.35947481386,
+        "y": -1117604.7699849333
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -571840.3222301686,
+          -1108966.5041866086
+        ]
+      },
+      "properties": {
+        "id": 456,
+        "dataset_size": 500,
+        "x": -571840.3222301686,
+        "y": -1108966.5041866086
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -544034.4391241042,
+          -1106420.3684169478
+        ]
+      },
+      "properties": {
+        "id": 457,
+        "dataset_size": 500,
+        "x": -544034.4391241042,
+        "y": -1106420.3684169478
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -551565.7183258662,
+          -1126737.5951079258
+        ]
+      },
+      "properties": {
+        "id": 458,
+        "dataset_size": 500,
+        "x": -551565.7183258662,
+        "y": -1126737.5951079258
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -517032.7019521477,
+          -1136370.364259366
+        ]
+      },
+      "properties": {
+        "id": 459,
+        "dataset_size": 500,
+        "x": -517032.7019521477,
+        "y": -1136370.364259366
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -542320.7593699656,
+          -1052948.2341735412
+        ]
+      },
+      "properties": {
+        "id": 460,
+        "dataset_size": 500,
+        "x": -542320.7593699656,
+        "y": -1052948.2341735412
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -551670.4869299683,
+          -1127566.9851595378
+        ]
+      },
+      "properties": {
+        "id": 461,
+        "dataset_size": 500,
+        "x": -551670.4869299683,
+        "y": -1127566.9851595378
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -519826.953099114,
+          -1122338.838555158
+        ]
+      },
+      "properties": {
+        "id": 462,
+        "dataset_size": 500,
+        "x": -519826.953099114,
+        "y": -1122338.838555158
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -547096.765070422,
+          -1099435.3445089315
+        ]
+      },
+      "properties": {
+        "id": 463,
+        "dataset_size": 500,
+        "x": -547096.765070422,
+        "y": -1099435.3445089315
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -563536.3129550427,
+          -1030064.2675133749
+        ]
+      },
+      "properties": {
+        "id": 464,
+        "dataset_size": 500,
+        "x": -563536.3129550427,
+        "y": -1030064.2675133749
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -575832.3842473838,
+          -1139230.4402830661
+        ]
+      },
+      "properties": {
+        "id": 465,
+        "dataset_size": 500,
+        "x": -575832.3842473838,
+        "y": -1139230.4402830661
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -529558.4202928843,
+          -1128681.8084644552
+        ]
+      },
+      "properties": {
+        "id": 466,
+        "dataset_size": 500,
+        "x": -529558.4202928843,
+        "y": -1128681.8084644552
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -554393.1676362796,
+          -1085944.54423493
+        ]
+      },
+      "properties": {
+        "id": 467,
+        "dataset_size": 500,
+        "x": -554393.1676362796,
+        "y": -1085944.54423493
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -540317.4203916944,
+          -1112764.1997062678
+        ]
+      },
+      "properties": {
+        "id": 468,
+        "dataset_size": 500,
+        "x": -540317.4203916944,
+        "y": -1112764.1997062678
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -563322.3453567203,
+          -1075295.2875840513
+        ]
+      },
+      "properties": {
+        "id": 469,
+        "dataset_size": 500,
+        "x": -563322.3453567203,
+        "y": -1075295.2875840513
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -538384.4801779761,
+          -1054871.1633318667
+        ]
+      },
+      "properties": {
+        "id": 470,
+        "dataset_size": 500,
+        "x": -538384.4801779761,
+        "y": -1054871.1633318667
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -552135.7650022012,
+          -1080999.0857252653
+        ]
+      },
+      "properties": {
+        "id": 471,
+        "dataset_size": 500,
+        "x": -552135.7650022012,
+        "y": -1080999.0857252653
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -528629.900303587,
+          -1051916.0190989624
+        ]
+      },
+      "properties": {
+        "id": 472,
+        "dataset_size": 500,
+        "x": -528629.900303587,
+        "y": -1051916.0190989624
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -514482.8235628649,
+          -1133111.9381225938
+        ]
+      },
+      "properties": {
+        "id": 473,
+        "dataset_size": 500,
+        "x": -514482.8235628649,
+        "y": -1133111.9381225938
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -555452.9944971374,
+          -1140751.4059799565
+        ]
+      },
+      "properties": {
+        "id": 474,
+        "dataset_size": 500,
+        "x": -555452.9944971374,
+        "y": -1140751.4059799565
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -557823.3528540694,
+          -1146427.8992662397
+        ]
+      },
+      "properties": {
+        "id": 475,
+        "dataset_size": 500,
+        "x": -557823.3528540694,
+        "y": -1146427.8992662397
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -577895.1826256649,
+          -1092523.9960377675
+        ]
+      },
+      "properties": {
+        "id": 476,
+        "dataset_size": 500,
+        "x": -577895.1826256649,
+        "y": -1092523.9960377675
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -560947.453535046,
+          -1145130.3754176707
+        ]
+      },
+      "properties": {
+        "id": 477,
+        "dataset_size": 500,
+        "x": -560947.453535046,
+        "y": -1145130.3754176707
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -554232.1835497143,
+          -1067706.598747415
+        ]
+      },
+      "properties": {
+        "id": 478,
+        "dataset_size": 500,
+        "x": -554232.1835497143,
+        "y": -1067706.598747415
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -575174.3970196994,
+          -1070902.4429398903
+        ]
+      },
+      "properties": {
+        "id": 479,
+        "dataset_size": 500,
+        "x": -575174.3970196994,
+        "y": -1070902.4429398903
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -522617.8117396912,
+          -1135714.353818329
+        ]
+      },
+      "properties": {
+        "id": 480,
+        "dataset_size": 500,
+        "x": -522617.8117396912,
+        "y": -1135714.353818329
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -509365.8040587902,
+          -1121301.9028932087
+        ]
+      },
+      "properties": {
+        "id": 481,
+        "dataset_size": 500,
+        "x": -509365.8040587902,
+        "y": -1121301.9028932087
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -511944.4545690288,
+          -1136634.100548281
+        ]
+      },
+      "properties": {
+        "id": 482,
+        "dataset_size": 500,
+        "x": -511944.4545690288,
+        "y": -1136634.100548281
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -536661.7446795955,
+          -1101885.5191981236
+        ]
+      },
+      "properties": {
+        "id": 483,
+        "dataset_size": 500,
+        "x": -536661.7446795955,
+        "y": -1101885.5191981236
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -548677.677025016,
+          -1117257.415247797
+        ]
+      },
+      "properties": {
+        "id": 484,
+        "dataset_size": 500,
+        "x": -548677.677025016,
+        "y": -1117257.415247797
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -562877.5197957234,
+          -1100583.0128056707
+        ]
+      },
+      "properties": {
+        "id": 485,
+        "dataset_size": 500,
+        "x": -562877.5197957234,
+        "y": -1100583.0128056707
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -558964.8962839659,
+          -1102979.2986105492
+        ]
+      },
+      "properties": {
+        "id": 486,
+        "dataset_size": 500,
+        "x": -558964.8962839659,
+        "y": -1102979.2986105492
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -558127.7628650151,
+          -1052319.2967294483
+        ]
+      },
+      "properties": {
+        "id": 487,
+        "dataset_size": 500,
+        "x": -558127.7628650151,
+        "y": -1052319.2967294483
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -574633.370257475,
+          -1117287.664159939
+        ]
+      },
+      "properties": {
+        "id": 488,
+        "dataset_size": 500,
+        "x": -574633.370257475,
+        "y": -1117287.664159939
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -519882.95565216726,
+          -1127473.0454552872
+        ]
+      },
+      "properties": {
+        "id": 489,
+        "dataset_size": 500,
+        "x": -519882.95565216726,
+        "y": -1127473.0454552872
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -568187.337458722,
+          -1126677.2453232189
+        ]
+      },
+      "properties": {
+        "id": 490,
+        "dataset_size": 500,
+        "x": -568187.337458722,
+        "y": -1126677.2453232189
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -560780.0059270631,
+          -1145888.446664067
+        ]
+      },
+      "properties": {
+        "id": 491,
+        "dataset_size": 500,
+        "x": -560780.0059270631,
+        "y": -1145888.446664067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -534238.2475900614,
+          -1135999.0296892868
+        ]
+      },
+      "properties": {
+        "id": 492,
+        "dataset_size": 500,
+        "x": -534238.2475900614,
+        "y": -1135999.0296892868
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -544026.6443823267,
+          -1066708.766444795
+        ]
+      },
+      "properties": {
+        "id": 493,
+        "dataset_size": 500,
+        "x": -544026.6443823267,
+        "y": -1066708.766444795
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -551611.3829905224,
+          -1138943.1160751006
+        ]
+      },
+      "properties": {
+        "id": 494,
+        "dataset_size": 500,
+        "x": -551611.3829905224,
+        "y": -1138943.1160751006
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -570172.8851286847,
+          -1091899.8852740733
+        ]
+      },
+      "properties": {
+        "id": 495,
+        "dataset_size": 500,
+        "x": -570172.8851286847,
+        "y": -1091899.8852740733
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -555604.4285513359,
+          -1030195.4866933419
+        ]
+      },
+      "properties": {
+        "id": 496,
+        "dataset_size": 500,
+        "x": -555604.4285513359,
+        "y": -1030195.4866933419
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -529814.604669371,
+          -1130766.1307021244
+        ]
+      },
+      "properties": {
+        "id": 497,
+        "dataset_size": 500,
+        "x": -529814.604669371,
+        "y": -1130766.1307021244
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -515384.07427135826,
+          -1118340.4482200574
+        ]
+      },
+      "properties": {
+        "id": 498,
+        "dataset_size": 500,
+        "x": -515384.07427135826,
+        "y": -1118340.4482200574
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -570411.6199901854,
+          -1088365.7912063887
+        ]
+      },
+      "properties": {
+        "id": 499,
+        "dataset_size": 500,
+        "x": -570411.6199901854,
+        "y": -1088365.7912063887
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -534611.3113361688,
+          -1119525.9721096102
+        ]
+      },
+      "properties": {
+        "id": 500,
+        "dataset_size": 500,
+        "x": -534611.3113361688,
+        "y": -1119525.9721096102
+      }
+    }
+  ]
+}
