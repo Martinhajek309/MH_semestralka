@@ -73,3 +73,23 @@ python src/benchmark.py --queries 1000 --tile-size 5000
 ```
 
 Vysledky se ulozi do `results/benchmark_results.csv`.
+
+## Benchmark vyhledavani
+
+Skript `src/benchmark_search.py` porovnava tri metody prostoroveho vyhledavani
+bodů v EPSG:5514:
+
+- `linear_search`: pro kazdy dotaz prochazi vsechny body bez indexu.
+- `tile_index`: pouziva vlastni dlazdicovy index s velikosti dlazdice 1000 m.
+- `rtree_index`: pouziva prostorovy index GeoPandas/Shapely pres `gdf.sindex`.
+
+Benchmark pouziva bodove vrstvy s 500, 1000 a 5000 body. Pro kazdy dataset
+testuje 1000 nahodnych dotazovacich oken o velikostech 1000 m, 5000 m a
+10000 m. Vsechny metody se kontroluji proti sobe; pokud by vratily odlisny
+pocet bodu pro stejny dotaz, skript vypise chybu s konkretnim bboxem.
+
+```powershell
+python src/benchmark_search.py
+```
+
+Vysledky se ukladaji do `results/benchmark_search.csv`.
