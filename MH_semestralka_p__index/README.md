@@ -110,3 +110,22 @@ slouzi pro vypocty a benchmark v metrech.
 ```powershell
 python src/prepare_ceska_republika_polygon.py
 ```
+
+## Bodove vrstvy Ceske republiky
+
+Skript `src/generate_random_points_cr.py` generuje reprodukovatelne nahodne
+bodove vrstvy uvnitr skutecneho polygonu Ceske republiky v EPSG:5514. Vytvari
+datasety s 5000, 10000 a 50000 body:
+
+- `data/random_points_5000_cr_5514.geojson`
+- `data/random_points_10000_cr_5514.geojson`
+- `data/random_points_50000_cr_5514.geojson`
+
+Kazdy bod ma atributy `id`, `dataset_size`, `area_name`, `x` a `y`.
+Hodnota `area_name` je `Ceska republika` a souradnice `x`, `y` jsou ulozene v
+metrech v EPSG:5514. Kandidatni body se generuji z bounding boxu, ale kazdy bod
+je pred ulozenim overen proti skutecnemu polygonu CR.
+
+```powershell
+python src/generate_random_points_cr.py
+```
