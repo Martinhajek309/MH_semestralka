@@ -94,6 +94,27 @@ python src/benchmark_search.py
 
 Vysledky se ukladaji do `results/benchmark_search.csv`.
 
+## Benchmark vyhledavani pro CR
+
+Skript `src/benchmark_search_cr.py` porovnava stejne tri metody prostoroveho
+vyhledavani nad bodovymi vrstvami pro celou Ceskou republiku v EPSG:5514:
+
+- `linear_search`: pro kazdy dotaz prochazi vsechny body bez indexu.
+- `tile_index`: pouziva vlastni dlazdicovy index s velikosti dlazdice 5000 m.
+- `rtree_index`: pouziva knihovni prostorovy index GeoPandas/Shapely pres
+  `gdf.sindex`.
+
+Benchmark pouziva datasety s 5000, 10000 a 50000 body. Pro kazdy dataset
+testuje 1000 nahodnych dotazovacich oken o velikostech 5000 m, 20000 m a
+50000 m. Pro vsechny metody se pouziva stejna sada dotazu a vysledky se
+kontroluji proti sobe.
+
+```powershell
+python src/benchmark_search_cr.py
+```
+
+Vysledky se ukladaji do `results/benchmark_search_cr.csv`.
+
 ## Polygon Ceske republiky
 
 Skript `src/prepare_ceska_republika_polygon.py` pripravuje polygon cele Ceske
