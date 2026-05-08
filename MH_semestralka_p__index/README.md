@@ -115,6 +115,72 @@ python src/benchmark_search_cr.py
 
 Vysledky se ukladaji do `results/benchmark_search_cr.csv`.
 
+## Radius query
+
+Radius query je prostorovy dotaz, ktery pro zadany dotazovaci bod hleda vsechny
+body do urcite vzdalenosti. V tomto projektu se radius query pocita v EPSG:5514,
+protoze souradnice jsou v metrech a eukleidovska vzdalenost tak odpovida
+testovanym polomerum 5000 m, 10000 m a 25000 m.
+
+Skript `src/benchmark_radius_query_cr.py` porovnava tri pristupy nad bodovymi
+vrstvami pro celou Ceskou republiku:
+
+- `linear_search_radius`: pro kazdy dotaz projde vsechny body a primo spocita
+  vzdalenost od dotazovaciho bodu.
+- `tile_index_radius`: body jsou rozdelene do dlazdic o velikosti 5000 m.
+  Dotaz nejdrive vybere dlazdice protinajici bbox kruznice a potom kandidaty
+  presne overi eukleidovskou vzdalenosti.
+- `rtree_index_radius`: knihovni index GeoPandas/Shapely `gdf.sindex` nejdrive
+  najde kandidaty v bboxu kruznice a kandidati se potom presne overi
+  vzdalenosti.
+
+Kandidati z indexu nejsou sami o sobe vysledkem radius query. U dlazdicoveho i
+R-tree / STRtree indexu se musi jeste presne overit, ze jejich vzdalenost od
+dotazovaciho bodu je mensi nebo rovna zadanemu polomeru.
+
+```powershell
+python src/benchmark_radius_query_cr.py
+```
+
+Vysledky se ukladaji do `results/benchmark_radius_query_cr.csv`.
+
+## Polygon query
+
+Polygon query hleda body lezici uvnitr nepravidelneho polygonu. V tomto
+benchmarku je dotazovacim polygonem vzdy jeden skutecny kraj Ceske republiky a
+vysledkem je pocet bodu bodove vrstvy, ktere lezi uvnitr jeho hranice.
+
+Tento dotaz je jiny nez vyhledavani ve ctvercovem okne: ctvercove okno ma
+jednoduchy bbox, zatimco kraj ma nepravidelny tvar. Proto se index pouzije jen
+pro vyber kandidatnich bodu podle bounding boxu polygonu a kandidati se potom
+musi presne overit vuci skutecnemu tvaru kraje.
+
+Skript `src/benchmark_polygon_query_cr.py` pouziva skutecne hranice 14 kraju CR.
+Pokud nejsou ulozene v `data/kraje_cr_5514.geojson`, pokusi se najit lokalni
+vrstvu vsech kraju, jinak je stahne z verejne ArcGIS REST sluzby Ceske
+geologicke sluzby `Topografie/uzemni_identifikace`, vrstva `Kraje`. Vystupy
+vrstvy kraju jsou `data/kraje_cr.geojson` v EPSG:4326 a
+`data/kraje_cr_5514.geojson` v EPSG:5514.
+
+Vypocty probiha v EPSG:5514, protoze jde o pracovni souradnicovy system v
+metrech. Benchmark porovnava:
+
+- `linear_search_polygon`: pro kazdy kraj projde vsechny body a presne testuje,
+  zda bod lezi uvnitr polygonu.
+- `tile_index_polygon`: body jsou ulozene ve vlastnim dlazdicovem indexu s
+  dlazdici 5000 m; pro kraj se nejdrive vyberou dlazdice podle bboxu a potom se
+  kandidati presne overi vuci polygonu kraje.
+- `rtree_index_polygon`: GeoPandas/Shapely `gdf.sindex` vybere kandidaty podle
+  bboxu polygonu a kandidati se potom presne overi vuci skutecne geometrii
+  kraje.
+
+```powershell
+python src/benchmark_polygon_query_cr.py
+```
+
+Souhrn benchmarku se uklada do `results/benchmark_polygon_query_cr.csv` a
+detailni pocty podle kraju do `results/polygon_query_counts_by_kraj.csv`.
+
 ## Polygon Ceske republiky
 
 Skript `src/prepare_ceska_republika_polygon.py` pripravuje polygon cele Ceske

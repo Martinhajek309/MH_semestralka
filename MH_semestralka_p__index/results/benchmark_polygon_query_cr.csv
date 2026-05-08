@@ -1,0 +1,10 @@
+area_name,dataset_size,polygon_count,method,index_build_seconds,search_seconds,total_seconds,total_found_points,average_found_points_per_polygon,tile_size_m
+Ceska republika,5000,14,linear_search_polygon,0.000000000,1.895053000,1.895053000,5000,357.142857,
+Ceska republika,5000,14,tile_index_polygon,0.002929100,3.140344500,3.143273600,5000,357.142857,5000
+Ceska republika,5000,14,rtree_index_polygon,0.005364900,2.836003000,2.841367900,5000,357.142857,
+Ceska republika,10000,14,linear_search_polygon,0.000000000,3.368973800,3.368973800,10000,714.285714,
+Ceska republika,10000,14,tile_index_polygon,0.006788800,3.698285800,3.705074600,10000,714.285714,5000
+Ceska republika,10000,14,rtree_index_polygon,0.005331200,3.691947600,3.697278800,10000,714.285714,
+Ceska republika,50000,14,linear_search_polygon,0.000000000,21.007412400,21.007412400,50000,3571.428571,
+Ceska republika,50000,14,tile_index_polygon,0.284635300,18.766374700,19.051010000,50000,3571.428571,5000
+Ceska republika,50000,14,rtree_index_polygon,0.028858400,15.328000300,15.356858700,50000,3571.428571,
