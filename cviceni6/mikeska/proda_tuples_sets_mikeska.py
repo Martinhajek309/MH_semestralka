@@ -1,6 +1,114 @@
+
 """
-Cvičení 6 - Tuples a Sets
+Cvičení 6 - Tuples a Sets (Experimentální verze)
 """
+from collections import namedtuple
+
+# --- Datová struktura ---
+# Použijeme namedtuple pro lepší čitelnost kódu. Je to stále tuple, jen s pojmenovanými poli.
+Mesto = namedtuple("Mesto", ["nazev", "lat", "lon", "kategorie"])
+
+
+# --- Úkol 1: Tuples ---
+
+# 1. Vytvoříme seznam měst jako seznam namedtuples.
+mesta = [
+    Mesto("Palkovice", 49.6711, 18.3239, "obec"),
+    Mesto("Hukvaldy", 49.6219, 18.2247, "turistické"),
+    Mesto("Kozlovice", 49.6153, 18.2619, "obec"),
+    Mesto("Frýdlant nad Ostravicí", 49.5919, 18.3606, "obec"),
+    Mesto("Ostravice", 49.5333, 18.3833, "turistické"),
+    Mesto("Čeladná", 49.5500, 18.3333, "turistické"),
+    Mesto("Staré Hamry", 49.4833, 18.4500, "obec"),
+    Mesto("Morávka", 49.5989, 18.5258, "obec"),
+    Mesto("Raškovice", 49.6558, 18.4553, "obec"),
+    Mesto("Janovice", 49.6553, 18.3806, "obec"),
+]
+
+# 2. Vypíšeme všechna města. Díky namedtuple je cyklus čitelnější.
+print("--- Seznam měst (Úkol 1.2) ---")
+for mesto in mesta:
+    print(f"{mesto.nazev}: {mesto.lat}°N, {mesto.lon}°E ({mesto.kategorie})")
+print("-" * 35)
+
+# 3. Funkce pro kontrolu polohy v oblasti.
+def je_v_oblasti(souradnice: tuple, min_lat: float, max_lat: float, min_lon: float, max_lon: float) -> bool:
+    """Zjistí, zda se souřadnice (lat, lon) nachází v dané oblasti."""
+    lat, lon = souradnice
+    return min_lat <= lat <= max_lat and min_lon <= lon <= max_lon
+
+# 4. Rozdělíme města na východní a západní dynamicky.
+# Hranici určíme jako průměrnou zeměpisnou délku všech měst.
+prumerna_lon = sum(mesto.lon for mesto in mesta) / len(mesta)
+zapadni_mesta = tuple(mesto for mesto in mesta if mesto.lon < prumerna_lon)
+vychodni_mesta = tuple(mesto for mesto in mesta if mesto.lon >= prumerna_lon)
+
+print(f"\n--- Rozdělení měst (Úkol 1.4) ---")
+print(f"Dynamická hranice (průměrná délka): {prumerna_lon:.4f}°E")
+print(f"Západní města: {', '.join(m.nazev for m in zapadni_mesta)}")
+print(f"Východní města: {', '.join(m.nazev for m in vychodni_mesta)}")
+print("-" * 35)
+
+
+# --- Úkol 2: Sets ---
+
+# 1. Vytvoříme sety kategorií.
+kategorie_zapad = {mesto.kategorie for mesto in zapadni_mesta}
+kategorie_vychod = {mesto.kategorie for mesto in vychodni_mesta}
+
+print(f"\n--- Kategorie měst (Úkol 2.1) ---")
+print(f"Kategorie na západě: {kategorie_zapad}")
+print(f"Kategorie na východě: {kategorie_vychod}")
+print("-" * 35)
+
+# 2. Zjistíme, zda kategorie východních měst existuje v setu západních.
+print("\n--- Průnik kategorií (Úkol 2.2) ---")
+for mesto in vychodni_mesta:
+    if mesto.kategorie in kategorie_zapad:
+        print(f"Kategorie '{mesto.kategorie}' města {mesto.nazev} existuje i na západě.")
+    else:
+        print(f"Kategorie '{mesto.kategorie}' města {mesto.nazev} je unikátní pro východ.")
+print("-" * 35)
+
+# 3. Vypíšeme města pro každou unikátní kategorii ze západního setu.
+print("\n--- Města v západních kategoriích (Úkol 2.3) ---")
+for kategorie in sorted(list(kategorie_zapad)):
+    mesta_v_kategorii = [m.nazev for m in mesta if m.kategorie == kategorie]
+    print(f"Kategorie '{kategorie}': {', '.join(mesta_v_kategorii)}")
+print("-" * 35)
+
+
+# --- Úkol 3: Množinové operace ---
+
+# 1. Vytvoříme sety na základě kategorií, což je logičtější.
+turisticke_atrakce = {mesto for mesto in mesta if mesto.kategorie == "turistické"}
+# Pro přírodní rezervace nemáme kategorii, tak je definujme jako podmnožinu turistických
+prirodni_rezervace = {mesto for mesto in mesta if mesto.nazev in ["Hukvaldy", "Ostravice"]}
+
+# 2. Funkce pro zařazení (pro úplnost zadání, i když ji zde přímo nepoužijeme)
+def zarad_mesto(mesto: Mesto, cilovy_set: set):
+    """Vloží město do zadaného setu."""
+    cilovy_set.add(mesto)
+
+print("\n--- Množinové operace (Úkol 3) ---")
+print(f"Turistické atrakce: {', '.join(m.nazev for m in turisticke_atrakce)}")
+print(f"Přírodní rezervace: {', '.join(m.nazev for m in prirodni_rezervace)}")
+
+# 3. Množinové operace s přehlednějšími výpisy
+union = turisticke_atrakce | prirodni_rezervace
+print(f"\nAtrakce NEBO rezervace: {', '.join(m.nazev for m in union)}")
+
+intersection = turisticke_atrakce & prirodni_rezervace
+print(f"Atrakce I rezervace: {', '.join(m.nazev for m in intersection)}")
+
+difference = turisticke_atrakce - prirodni_rezervace
+print(f"Atrakce, ale NE rezervace: {', '.join(m.nazev for m in difference)}")
+
+symmetric_difference = turisticke_atrakce ^ prirodni_rezervace
+print(f"BUĎ atrakce, NEBO rezervace (ale ne obojí): {', '.join(m.nazev for m in symmetric_difference)}")
+
+print("-" * 35)
+
 
 # Úkol 1: Tuples
 
