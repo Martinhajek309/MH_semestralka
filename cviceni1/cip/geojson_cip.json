@@ -1,0 +1,19 @@
+{
+  "map": {
+    "zoom": 14,
+    "tiles": "OpenStreetMap"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"name": "Point A", "popup": "Olomouc - Horní náměstí"},
+      "geometry": {"type": "Point", "coordinates": [17.2509, 49.5938]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Point B", "popup": "Olomouc - Univerzita"},
+      "geometry": {"type": "Point", "coordinates": [17.2480, 49.5970]}
+    }
+  ]
+}

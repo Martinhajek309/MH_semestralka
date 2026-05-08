@@ -69,25 +69,3 @@ def prevod(hodnota, smer):
     if smer == "mi_to_km":
         return hodnota * 1.60934
 ```
-
-**Funkce 2:**
-```python
-souradnice = []
-
-def pridej_bod(lat, lon):
-    souradnice.append([lat, lon])
-    print(f"Přidán bod: {lat}, {lon}")
-    print(f"Celkem bodů: {len(souradnice)}")
-```
-
----
-
-## Odevzdání
-
-1. Uložte všechny soubory (`geodistance_prijmeni.py`, `misto_prijmeni.geojson`).
-2. Proveďte **Stage**, **Commit** (srozumitelná zpráva) a **Push** do své větve.
-3. Vytvořte na GitHubu **Pull Request** do hlavní větve.
-
-> [!tip] Tip
-> Pokud si nevíte rady se syntaxí, podívejte se do materiálů k jednotlivým blokům (L5-1, L5-2, L5-3). Nezapomínejte na type hints a docstringy!
-

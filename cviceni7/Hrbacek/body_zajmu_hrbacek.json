@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "nazev": "ZMĚNA MĚLKÁ",
+        "souradnice": [
+            49.5938,
+            17.2509
+        ],
+        "typ": "restaurace",
+        "oteviraci_hodiny": {
+            "po": "11-22",
+            "ut": "11-22",
+            "st": "11-22",
+            "ct": "11-22",
+            "pa": "11-23",
+            "so": "12-23",
+            "ne": "12-20"
+        }
+    },
+    {
+        "id": 2,
+        "nazev": "Katedrála sv. Václava",
+        "souradnice": [
+            49.5952,
+            17.2611
+        ],
+        "typ": "pamatka",
+        "oteviraci_hodiny": {
+            "po": "9-17"
+        },
+        "hodnoceni": 4.5
+    },
+    {
+        "id": 3,
+        "nazev": "Café 87",
+        "souradnice": [
+            49.593,
+            17.2515
+        ],
+        "typ": "restaurace",
+        "oteviraci_hodiny": {
+            "po": "8-20"
+        }
+    }
+]
