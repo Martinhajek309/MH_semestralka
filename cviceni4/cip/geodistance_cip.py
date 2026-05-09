@@ -47,55 +47,6 @@ def vytvor_geojson_bod(nazev: str, lat: float, lon: float) -> str:
 }}'''
     return geojson
 
-# Funkce 1: Kontrola a oprava původní funkce prevod
-# Co dělá? Převede hodnotu mezi kilometry a mílemi podle směru zadaného jako text.
-# Má problém? Původní verze neměla type hints, chyběl jasný else blok pro neplatný směr a
-# používala dvě samostatná if podmínky místo if/elif, což může být méně čitelné.
-
-def prevod(hodnota: float, smer: str) -> float:
-    """
-    Převede hodnotu mezi kilometry a mílemi podle zadaného směru.
-
-    Args:
-        hodnota (float): Číselná hodnota k převodu.
-        smer (str): Směr převodu, buď "km_to_mi" nebo "mi_to_km".
-
-    Returns:
-        float: Převedená hodnota v požadované jednotce.
-
-    Raises:
-        ValueError: Pokud je směrový parametr neplatný.
-    """
-    if smer == "km_to_mi":
-        return hodnota * 0.621371
-    elif smer == "mi_to_km":
-        return hodnota * 1.60934
-    else:
-        raise ValueError(f"Neplatný směr převodu: {smer}. Použijte 'km_to_mi' nebo 'mi_to_km'.")
-
-
-# Funkce 2: Kontrola a oprava původní funkce pridej_bod
-# Co dělá? Přidává nový bod do seznamu souřadnic a vypisuje informace.
-# Má problém? Původní verze používala globální seznam, neposkytovala type hints a nevracela aktualizovaný seznam.
-
-def pridej_bod(lat: float, lon: float, souradnice: list[list[float]]) -> list[list[float]]:
-    """
-    Přidá bod do seznamu souřadnic.
-
-    Args:
-        lat (float): Zeměpisná šířka bodu.
-        lon (float): Zeměpisná délka bodu.
-        souradnice (list[list[float]]): Seznam souřadnic, do kterého se bod přidá.
-
-    Returns:
-        list[list[float]]: Aktualizovaný seznam souřadnic.
-    """
-    souradnice.append([lat, lon])
-    print(f"Přidán bod: {lat}, {lon}")
-    print(f"Celkem bodů: {len(souradnice)}")
-    return souradnice
-
-
 # Úkol 1: Základy funkcí
 # Poznámka: Funkce je rozšířena pro následující úkoly, ale pro úkol 1 stačí základní volání.
 
