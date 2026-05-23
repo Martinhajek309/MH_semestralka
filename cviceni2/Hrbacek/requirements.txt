@@ -1,0 +1,8 @@
+# práce s geodaty
+geopandas==1.1.2
+
+# vizualizace
+matplotlib==3.10.8
+
+# numerické výpočty
+numpy==2.4.2

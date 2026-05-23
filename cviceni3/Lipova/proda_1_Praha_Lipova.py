@@ -1,0 +1,16 @@
+city_name = "Praha"
+city_coordinates = list([50.0875, 14.4214])
+pocet_obyvatel = int(1300000)
+rozloha = float(496)
+hlavni_mesto = bool(1)
+print(type(city_name))
+print(type(city_coordinates))
+print(type(pocet_obyvatel))
+print(type(rozloha))
+print(type(hlavni_mesto))
+Hustota_obyvatel = pocet_obyvatel / rozloha
+print("Hustota_obyvatel: " + str(Hustota_obyvatel))
+print(type(Hustota_obyvatel))
+jmeno_uzivatele = input("Zadejte své jméno: ")
+print("Ahoj, " + jmeno_uzivatele + "!")
+print("Ahoj, " + jmeno_uzivatele + ", město " + city_name + " má hustotu " + str(Hustota_obyvatel) + " obyv./km2 a nachází se na souřadnicích " + str(city_coordinates) + ".")

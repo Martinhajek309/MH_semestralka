@@ -29,9 +29,9 @@ import geopandas as gpd
 from shapely.geometry import MultiPoint, Point, box
 from shapely.ops import voronoi_diagram
 
-# ============================================================
+# ===========================================================
 # 1. Stažení hranice České republiky
-# ============================================================
+# ===========================================================
 # Použijeme dataset Natural Earth — volně dostupná geodata pro celý svět.
 # Stáhneme soubor zemí světa a vyfiltrujeme si Českou republiku.
 

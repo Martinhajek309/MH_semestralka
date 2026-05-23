@@ -1,0 +1,12 @@
+
+{
+  "type": "Feature",
+  "properties": {
+    "nazev": "Karviná",
+    "vzdalenost_od_rovniku": 5549.74728
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [18.542, 49.854]
+  }
+}

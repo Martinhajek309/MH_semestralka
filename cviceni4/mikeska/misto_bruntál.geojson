@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nazev": "Bruntál",
+        "vzdalenost_od_rovniku": 5564.21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4695,
+          49.9839
+        ]
+      }
+    }
+  ]
+}

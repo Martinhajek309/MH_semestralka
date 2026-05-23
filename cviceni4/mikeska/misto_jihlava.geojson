@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nazev": "Jihlava",
+        "vzdalenost_od_rovniku": 5498.75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5898,
+          49.3959
+        ]
+      }
+    }
+  ]
+}

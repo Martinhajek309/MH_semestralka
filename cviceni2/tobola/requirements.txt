@@ -1,0 +1,8 @@
+#Numerické výpočty
+numpy==2.4.2
+
+#Geoprostorová data
+geopandas==1.1.2
+
+#Vizualizace
+matplotlib==3.10.8

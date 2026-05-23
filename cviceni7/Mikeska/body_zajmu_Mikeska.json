@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nazev": "Café Central",
+    "souřadnice": [
+      14.42076,
+      50.08804
+    ],
+    "typ": "restaurace",
+    "oteviraci_hodiny": {
+      "pondeli": "9:00-21:00",
+      "utery": "8:00-20:00",
+      "streda": "8:00-20:00",
+      "ctvrtek": "8:00-20:00",
+      "patek": "8:00-22:00",
+      "sobota": "9:00-22:00",
+      "nedele": "9:00-18:00"
+    },
+    "hodnoceni": 4.5
+  },
+  {
+    "id": 3,
+    "nazev": "Bistro U Tří",
+    "souřadnice": [
+      14.425,
+      50.09
+    ],
+    "typ": "restaurace",
+    "oteviraci_hodiny": {
+      "pondeli": "10:00-18:00",
+      "utery": "10:00-18:00",
+      "streda": "10:00-18:00",
+      "ctvrtek": "10:00-18:00",
+      "patek": "10:00-20:00",
+      "sobota": "11:00-20:00",
+      "nedele": "zavřeno"
+    },
+    "hodnoceni": 3.9
+  },
+  {
+    "id": 2,
+    "nazev": "Karlův most",
+    "souřadnice": [
+      14.41144,
+      50.0865
+    ],
+    "typ": "památka",
+    "oteviraci_hodiny": {
+      "pondeli": "nonstop",
+      "utery": "nonstop",
+      "streda": "nonstop",
+      "ctvrtek": "nonstop",
+      "patek": "nonstop",
+      "sobota": "nonstop",
+      "nedele": "nonstop"
+    }
+  }
+]

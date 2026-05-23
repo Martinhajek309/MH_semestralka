@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nazev": "Liberec",
+        "vzdalenost_od_rovniku": 5651.39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0521,
+          50.7671
+        ]
+      }
+    }
+  ]
+}

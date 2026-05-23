@@ -1,0 +1,3 @@
+geopandas==1.1.2 # stažení geopandas ve verzi 1.1.2
+matplotlib==3.3.2 # stažení matplotlib ve verzi 3.3.2
+numpy==1.19.2 # stažení numpy ve verzi 1.19.2

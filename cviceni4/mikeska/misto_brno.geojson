@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nazev": "Brno",
+        "vzdalenost_od_rovniku": 5476.08
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6113,
+          49.1922
+        ]
+      }
+    }
+  ]
+}

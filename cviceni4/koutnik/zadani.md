@@ -90,4 +90,3 @@ def pridej_bod(lat, lon):
 
 > [!tip] Tip
 > Pokud si nevíte rady se syntaxí, podívejte se do materiálů k jednotlivým blokům (L5-1, L5-2, L5-3). Nezapomínejte na type hints a docstringy!
-

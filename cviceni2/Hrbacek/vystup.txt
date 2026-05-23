@@ -1,0 +1,3 @@
+Skript vytvoří mapu Thiessen polygonů k městům ČR i s legendou
+
+překvapila mne absence Karlových Varů

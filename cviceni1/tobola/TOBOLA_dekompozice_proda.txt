@@ -1,0 +1,25 @@
+Název: Transformace dat do jednoho formátu.
+
+Data mohou mít různé zdroje (csv, xlsx,..).
+Data mohou být v různých SRS.
+Data mohou mít různé atributy.
+
+Cíl: Sjednostit zdroje do jednoho formátu (např. GeoJSON)
+     Převést souřadnice do jednotného SRS
+
+Dekompozice: Načtení souborů
+             Kontrola struktury dat (atributů)
+	     Transformace
+             Uložení výsledků
+
+	     
+
+             
+
+             
+
+
+     
+     
+
+

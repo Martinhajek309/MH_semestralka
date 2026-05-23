@@ -18,7 +18,7 @@
 mesta = [
     {"nazev": "Praha", "populace": 1_309_000, "souradnice": [50.0755, 14.4378]},
     {"nazev": "Brno", "populace": 382_000, "souradnice": [49.1951, 16.6068]},
-    {"nazev": "Ostrava", "populace": 284_000, "souradnice": [49.8209, 18.2625]},
+    {"nazev": "Ostrava", "populace": 284_000,  "souradnice": [49.8209, 18.2625]},
     {"nazev": "Plzeň", "populace": 174_000, "souradnice": [49.7384, 13.3736]},
     {"nazev": "Olomouc", "populace": 101_000, "souradnice": [49.5938, 17.2509]},
 ]
@@ -101,3 +101,6 @@ for mesto in mesta[1:]:
 
 print()
 print("Hotovo! 🎉")
+
+
+
